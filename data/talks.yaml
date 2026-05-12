@@ -1,0 +1,51 @@
+invited:
+  - year: 2025
+    title: Re-assessing the DHS wealth index as a proxy for socio-economic status
+    venue: Italian Conference on Survey Methodology (ITACOSM)
+    location: Florence, Italy
+  - year: 2022
+    title: Temporal trends and major determinants of antenatal care HIV testing in sub-Saharan Africa (2005–2021)
+    venue: Infectious Diseases Epidemiology Seminar, Imperial College London
+    location: London, UK
+  - year: 2017
+    title: "Heirs, corporate aristocrats and 'Meritocrats': the social space of top CEOs and Chairmen in India"
+    venue: Conference Socio-Economic Review on "Elites, Economy and Society"
+    location: Berlin, Germany
+
+conference:
+  - year: 2025
+    title: "Mismatched Measures: Comparing Asset-Based Wealth Index and Income/Consumption Poverty in Mozambique"
+    venue: Italian Conference on Survey Methodology
+    location: Bologna, Italy
+    type: oral
+  - year: 2025
+    title: Re-assessing the DHS wealth index as a proxy for socio-economic status in low resource settings
+    venue: Population Association of America
+    location: Washington DC, USA
+    type: oral
+  - year: 2023
+    title: Socio-demographic and geographic disparities in HIV burden and care engagement across 43 African countries
+    venue: ICASA
+    location: Harare, Zimbabwe
+    type: oral
+  - year: 2022
+    title: A methodological framework to assess disparities in healthcare quality
+    venue: Health Systems Global
+    location: Bogotá, Colombia
+    type: oral
+  - year: 2018
+    title: Impact evaluation of HIV viral load testing intervention in Guinea
+    venue: AIDS 2018
+    location: Amsterdam, Netherlands
+    type: oral
+
+workshops:
+  - year: 2025
+    title: Routine Health Information Systems for HIV Surveillance
+    venue: Week-long workshop, Mozambique Ministry of Health M&E team
+    location: Maputo, Mozambique
+    note: WHO-funded
+  - year: 2023
+    title: UNAIDS Regional Training Workshop on HIV Estimates and Projections
+    venue: Facilitator for 17 Francophone Ministries of Health
+    location: Abidjan, Côte d'Ivoire

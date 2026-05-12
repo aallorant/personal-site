@@ -1,0 +1,46 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <section class="page-content mw8 center">
+    {{ if .Params.show_title_as_headline }}
+      <h1 class="f2 f1-m f-headline-l fw5-ns mv4 lh-solid tracked-tight-ns">{{ .Title }}</h1>
+    {{ end }}
+    {{ with .Params.description }}
+      <p class="f4 lh-copy mt0 mb4 custom-headline-color">{{ . | markdownify }}</p>
+    {{ end }}
+    {{ .Content }}
+
+    <ul class="publications-list list pl0 mt5">
+      {{ range (where .Pages "Section" "publications").ByDate.Reverse }}
+        <li class="publication-item mb5 pb4 bb b--custom-border-color">
+          <div class="flex-l items-baseline justify-between">
+            <h2 class="f3 mv0 lh-title">
+              <a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+            <span class="f6 fw5 ttu tracked custom-headline-color">{{ .Date.Format "Jan 2006" }}</span>
+          </div>
+          {{ if .Params.author_short }}
+            <p class="f6 mt2 mb1 lh-copy">{{ .Params.author_short | markdownify }}</p>
+          {{ else if .Params.authors }}
+            <p class="f6 mt2 mb1 lh-copy">
+              {{ range $i, $a := .Params.authors }}{{ if $i }}, {{ end }}{{ if eq $a "Allorant A" }}<strong>{{ $a }}</strong>{{ else }}{{ $a }}{{ end }}{{ end }}
+            </p>
+          {{ end }}
+          {{ with .Params.venue }}
+            <p class="f6 mt1 mb2 i lh-copy">{{ . }}{{ with $.Params.volume }}, {{ . }}{{ end }}</p>
+          {{ end }}
+          {{ with .Params.summary }}
+            <p class="lh-copy mt2 mb2">{{ . | markdownify }}</p>
+          {{ end }}
+          {{ with .Params.tags }}
+            <p class="f6 mt2 mb0">
+              {{ range . }}<span class="dib mr2 ph2 pv1 ba b--custom-border-color br1 f7 ttu tracked">{{ . }}</span>{{ end }}
+            </p>
+          {{ end }}
+        </li>
+      {{ else }}
+        <li class="i">no publications yet.</li>
+      {{ end }}
+    </ul>
+  </section>
+</main>
+{{ end }}

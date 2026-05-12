@@ -1,0 +1,23 @@
+{{- /* Renders one group from data/talks.yaml.
+       params: group = invited | conference | workshops ; heading = section heading text. */ -}}
+{{- $group := .Get "group" -}}
+{{- $heading := .Get "heading" -}}
+{{- $items := index site.Data.talks $group -}}
+{{- with $items }}
+<section class="talks-group mt5" aria-labelledby="talks-{{ $group }}">
+  <h2 id="talks-{{ $group }}">{{ $heading }}</h2>
+  <ul class="list pl0 mt4">
+    {{- range . }}
+    <li class="talk-item mb4 pb3 bb b--custom-border-color">
+      <div class="flex-l items-baseline justify-between">
+        <h3 class="f4 mv0 lh-title">{{ .title }}</h3>
+        <span class="f6 fw5 ttu tracked custom-headline-color">{{ .year }}</span>
+      </div>
+      <p class="mt2 mb0 lh-copy">
+        <span class="i">{{ .venue }}</span>{{ with .location }} · {{ . }}{{ end }}{{ with .type }} · {{ . }}{{ end }}{{ with .note }} · {{ . }}{{ end }}
+      </p>
+    </li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}

@@ -1,0 +1,32 @@
+// Warm palette — cream / deep brown / terracotta / sand
+// File name contains "hex" so apéro's scaffold loads set-theme afterwards.
+// WCAG AA verified for body text and link colors against background.
+
+// Base surfaces
+$siteBgColorCustom:       #f5efe6; // cream — page background
+$sidebarBgColorCustom:    #ede5d4; // warm sand-cream — sidebar / panels
+
+// Text — deep brown on cream, ~10:1 contrast
+$textColorCustom:         #3a2e26;
+$sidebarTextColorCustom:  #3a2e26;
+
+// Headings
+$headlineColorCustom:     #5a3a26; // medium brown — used in .f-headline / .f-subheadline
+$headingColorCustom:      #3a2e26; // h1–h6
+
+// Links — deep terracotta, ~4.9:1 contrast on cream (AA normal text)
+$bodyLinkColorCustom:     #a04e2a;
+$navLinkColorCustom:      #3a2e26; // nav uses heading color; underline animation uses bodyLink
+$sidebarLinkColorCustom:  #a04e2a;
+
+// Footer — warm grey, ~5.4:1 contrast on cream
+$footerTextColorCustom:   #6a5a4c;
+
+// Buttons — cream-on-terracotta, hover deeper terracotta
+$buttonTextColorCustom:        #f5efe6;
+$buttonHoverTextColorCustom:   #f5efe6;
+$buttonBgColorCustom:          #a04e2a;
+$buttonHoverBgColorCustom:     #7d3818;
+
+// Borders — sand
+$borderColorCustom:       #d4b896;

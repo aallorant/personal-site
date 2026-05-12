@@ -1,0 +1,30 @@
+header:
+  - name: Home
+    title: Home Page
+    url: /
+  - name: Research
+    title: Research
+    url: /research/
+  - name: Publications
+    title: Publications
+    url: /publications/
+  - name: Teaching
+    title: Teaching
+    url: /teaching/
+  - name: CV
+    title: Curriculum Vitae
+    url: /cv/
+  - name: Contact
+    title: Contact
+    url: /contact/
+
+footer:
+  - name: GitHub
+    title: GitHub Profile
+    url: https://github.com/aallorant
+  - name: Google Scholar
+    title: Google Scholar
+    url: https://scholar.google.com/citations?user=PLACEHOLDER
+  - name: Southampton
+    title: University Profile
+    url: https://www.southampton.ac.uk

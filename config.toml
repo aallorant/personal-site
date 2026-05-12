@@ -1,0 +1,142 @@
+baseURL = "/"
+theme = "hugo-apero"
+languageCode = "en"
+title = "adrien allorant"
+author = "Adrien Allorant"
+copyright = ""
+googleAnalytics = ""
+metaDataFormat = "yaml"
+footnoteReturnLinkContents = "&#8617;"
+preserveTaxonomyNames = true
+ignoreLogs = ['warning-goldmark-raw-html']
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+enableEmoji = true
+
+[pagination]
+  pagerSize = 10
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark.renderer]
+    unsafe = true
+    hardwraps = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.highlight]
+    style = "github"
+
+[params]
+  orgName = "Adrien Allorant"
+  orgLocal = "Southampton, UK"
+  description = "Lecturer in social statistics and demography at the University of Southampton. Bayesian, spatial, and survey methods for global health."
+  favicon = "/img/favicon.ico"
+  logo = ""
+  mainSections = ["publications"]
+  navallcaps = false
+  socialInHeader = false
+  socialInFooter = true
+  sharing_image = "/img/profile.jpeg"
+
+  # custom palette — file at assets/warm-hex.scss
+  theme = ""
+  custom_theme = "warm-hex"
+
+  # built-in apéro fonts (woff2 bundled in theme)
+  customtextFontFamily = "Commissioner"
+  customheadingFontFamily = "Fraunces"
+  textFontFamily = "sans-serif"
+  headingFontFamily = "serif"
+
+  comments = ""
+
+  [params.math]
+    renderer = "katex"
+
+  [[params.social]]
+    icon      = "envelope"
+    icon_pack = "fas"
+    url       = "mailto:adrien.allorant@soton.ac.uk"
+  [[params.social]]
+    icon      = "github"
+    icon_pack = "fab"
+    url       = "https://github.com/aallorant"
+  [[params.social]]
+    icon      = "google-scholar"
+    icon_pack = "ai"
+    url       = "https://scholar.google.com/citations?user=s1UVCmwAAAAJ&hl=fr"
+  [[params.social]]
+    icon      = "orcid"
+    icon_pack = "ai"
+    url       = "https://orcid.org/0000-0002-9663-7561"
+  [[params.social]]
+    icon      = "linkedin"
+    icon_pack = "fab"
+    url       = "https://www.linkedin.com/in/adrien-allorant-4b2b4881/"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[menu]
+  [[menu.header]]
+    name = "about"
+    title = "About"
+    url = "/"
+    weight = 1
+  [[menu.header]]
+    name = "research"
+    title = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.header]]
+    name = "publications"
+    title = "Publications"
+    url = "/publications/"
+    weight = 3
+  [[menu.header]]
+    name = "teaching"
+    title = "Teaching"
+    url = "/teaching/"
+    weight = 4
+  [[menu.header]]
+    name = "talks"
+    title = "Talks"
+    url = "/talks/"
+    weight = 5
+  [[menu.header]]
+    name = "cv"
+    title = "CV"
+    url = "/cv/"
+    weight = 6
+  [[menu.header]]
+    name = "contact"
+    title = "Contact"
+    url = "/contact/"
+    weight = 7
+
+  [[menu.footer]]
+    name = "Email"
+    title = "Email"
+    url = "mailto:adrien.allorant@soton.ac.uk"
+    weight = 1
+  [[menu.footer]]
+    name = "GitHub"
+    title = "GitHub"
+    url = "https://github.com/aallorant"
+    weight = 2
+  [[menu.footer]]
+    name = "Google Scholar"
+    title = "Google Scholar"
+    url = "https://scholar.google.com/citations?user=s1UVCmwAAAAJ&hl=fr"
+    weight = 3
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.x]
+    disable = true
+    enableDNT = true
+    simple = true

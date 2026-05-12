@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" dir="ltr">
+    {{- partial "head.html" . -}}
+    <body>
+      <a class="skip-link" href="#main-content">skip to content</a>
+      <div class="grid-container{{ if .Params.layout }} {{ .Params.layout }}{{ end }}{{ if .IsHome }} home{{ end }}">
+        {{- block "header" . }}{{- partial "header.html" . -}}{{- end }}
+        <div id="main-content" tabindex="-1">
+          {{- block "main" . }}{{- end }}
+        </div>
+        {{- block "footer" . }}{{- partial "footer.html" . -}}{{- end }}
+      </div>
+    </body>
+</html>

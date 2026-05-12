@@ -1,0 +1,20 @@
+{{- /* Renders data/collaborations.yaml as a "current collaborations" sub-section. */ -}}
+{{- with site.Data.collaborations }}
+<section class="collaborations mt5" aria-labelledby="collaborations-heading">
+  <h2 id="collaborations-heading">current collaborations</h2>
+  <ul class="list pl0 mt4">
+    {{- range . }}
+    <li class="mb4 pb3 bb b--custom-border-color">
+      <div class="flex-l items-baseline justify-between">
+        <h3 class="f4 mv0">{{ .partner }}</h3>
+        {{- with .dates }}<span class="f6 fw5 ttu tracked custom-headline-color">{{ . }}</span>{{ end }}
+      </div>
+      {{- with .description }}<p class="lh-copy mt2">{{ . | markdownify }}</p>{{ end }}
+      {{- with .funders }}
+      <p class="f6 mt2 i custom-headline-color">funded by: {{ delimit . ", " ", and " }}</p>
+      {{- end }}
+    </li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}

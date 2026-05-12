@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <section class="page-content mw8 center">
+    {{ if .Params.show_title_as_headline }}<h1 class="f2 f1-m f-subheadline-l fw5-ns mv4 lh-solid tracked-tight">{{ .Title }}</h1>{{ end }}
+    {{ with .Params.page_subtitle }}<p class="f5 fw6 ttu tracked dark-red mv0">{{ . }}</p>{{ end }}
+    <article class="post-body mv4 lh-copy">
+      {{ .Content }}
+    </article>
+  </section>
+</main>
+{{ end }}

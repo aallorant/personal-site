@@ -1,0 +1,59 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <article class="publication mw8 center">
+    <header class="mb4">
+      <p class="f6 mv0 ttu tracked custom-headline-color"><a href="/publications/" class="link">&larr; publications</a></p>
+      <h1 class="f2 f1-m f-headline-l fw5-ns mt3 mb3 lh-title tracked-tight-ns">{{ .Title }}</h1>
+      {{ with .Params.authors }}
+        <p class="f5 lh-copy mt2 mb2">
+          {{ range $i, $a := . }}{{ if $i }}, {{ end }}{{ if eq $a "Allorant A" }}<strong>{{ $a }}</strong>{{ else }}{{ $a }}{{ end }}{{ end }}
+        </p>
+      {{ end }}
+      <p class="f5 mt2 mb0">
+        {{ with .Params.venue }}<span class="i">{{ . }}</span>{{ end }}{{ with .Params.volume }}, {{ . }}{{ end }}
+        {{ with .Date }} · <time datetime="{{ .Format "2006-01-02" }}">{{ .Format "January 2006" }}</time>{{ end }}
+      </p>
+      <p class="f6 mt3">
+        {{ with .Params.doi }}<a href="https://doi.org/{{ . }}" rel="noopener" class="mr3">doi: {{ . }}</a>{{ end }}
+        {{ with .Params.pmid }}<a href="https://pubmed.ncbi.nlm.nih.gov/{{ . }}/" rel="noopener" class="mr3">pubmed: {{ . }}</a>{{ end }}
+        {{ with .Params.pmcid }}<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ . }}/" rel="noopener" class="mr3">{{ . }}</a>{{ end }}
+        {{ with .Params.pdf }}<a href="{{ . }}" rel="noopener" class="mr3">pdf</a>{{ end }}
+      </p>
+    </header>
+
+    {{ with .Params.figure }}
+      {{ $img := $.Resources.GetMatch . }}
+      {{ if $img }}
+        <figure class="mv4">
+          <img src="{{ $img.RelPermalink }}" alt="{{ $.Params.figure_alt | default $.Title }}" loading="lazy" class="w-100">
+          {{ with $.Params.figure_caption }}<figcaption class="f7 mt2">{{ . | markdownify }}</figcaption>{{ end }}
+        </figure>
+      {{ end }}
+    {{ end }}
+
+    {{ with .Params.abstract }}
+      <section class="abstract mv4" aria-labelledby="abstract-heading">
+        <h2 id="abstract-heading" class="f4 ttu tracked custom-headline-color">abstract</h2>
+        <div class="lh-copy">{{ . | markdownify }}</div>
+      </section>
+    {{ end }}
+
+    {{ with .Content }}
+      <div class="post-body lh-copy">{{ . }}</div>
+    {{ end }}
+
+    {{ with .Params.tags }}
+      <p class="f6 mt4 mb4">
+        {{ range . }}<span class="dib mr2 mb2 ph2 pv1 ba b--custom-border-color br1 f7 ttu tracked">{{ . }}</span>{{ end }}
+      </p>
+    {{ end }}
+
+    {{ with .Params.bibtex }}
+      <section class="bibtex mt4" aria-labelledby="bibtex-heading">
+        <h2 id="bibtex-heading" class="f4 ttu tracked custom-headline-color">bibtex</h2>
+<pre><code class="f6">{{ . | safeHTML }}</code></pre>
+      </section>
+    {{ end }}
+  </article>
+</main>
+{{ end }}

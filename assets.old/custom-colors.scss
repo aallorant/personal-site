@@ -1,0 +1,142 @@
+// Academic custom styles
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+
+// Custom font application
+body {
+  font-family: 'Source Sans 3', -apple-system, sans-serif !important;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Serif 4', Georgia, serif !important;
+}
+
+.site-brand span {
+  font-family: 'Source Serif 4', Georgia, serif !important;
+  font-weight: 700;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+}
+
+// Navigation refinements
+.site-header {
+  border-bottom: 2px solid #e7040f;
+}
+
+.site-nav .site-links a {
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: #e7040f !important;
+  }
+}
+
+// Homepage hero
+.home .page-main {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.home .page-content img {
+  border-radius: 50%;
+  border: 4px solid #e7040f;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  max-width: 220px;
+}
+
+// Action link styling
+a.action.text {
+  color: #e7040f;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #e7040f;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    color: #001b44;
+    border-bottom-color: #001b44;
+  }
+}
+
+// Page content styling
+.post-body {
+  h2 {
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-top: 2rem;
+  }
+  
+  blockquote {
+    border-left: 3px solid #e7040f;
+    margin-left: 0;
+    padding: 0.5rem 1.5rem;
+    color: #555;
+    font-style: italic;
+    background: rgba(231, 4, 15, 0.03);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.92rem;
+  }
+  
+  th {
+    text-align: left;
+    padding: 0.6rem 1rem;
+    border-bottom: 2px solid #e7040f;
+    font-weight: 600;
+    color: #333;
+    font-family: 'Source Sans 3', sans-serif !important;
+  }
+  
+  td {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  tr:hover td {
+    background: rgba(231, 4, 15, 0.02);
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2.5rem 0;
+  }
+  
+  ul li, ol li {
+    margin-bottom: 0.4rem;
+    line-height: 1.7;
+  }
+}
+
+// Footer
+.site-footer {
+  border-top: 2px solid #e7040f;
+}
+
+// Responsive
+@media screen and (max-width: 60em) {
+  .home .page-content img {
+    max-width: 160px;
+    margin: 0 auto 1.5rem;
+    display: block;
+  }
+}

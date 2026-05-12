@@ -1,0 +1,152 @@
+// ---- Skip link (visible on focus only) ----
+.skip-link {
+  position: absolute;
+  left: 0;
+  top: -3rem;
+  padding: 0.75rem 1.25rem;
+  background: $textColorCustom;
+  color: $siteBgColorCustom;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  z-index: 1000;
+  transition: top 0.2s ease;
+
+  &:focus,
+  &:focus-visible {
+    top: 0;
+    outline: 3px solid $buttonHoverBgColorCustom;
+    outline-offset: 2px;
+  }
+}
+
+// The #main-content wrapper exists only as a focus target for the skip link.
+// `display: contents` keeps it out of apéro's 6-column grid so the real
+// .page-main child still spans the full width.
+#main-content {
+  display: contents;
+  &:focus { outline: none; }
+}
+
+// ---- Visible focus styles for all interactive elements ----
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid $buttonHoverBgColorCustom;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+// ---- Typographic refinements ----
+body {
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  letter-spacing: -0.005em;
+}
+
+// Subtler headline weight than tachyons default
+.page-content h1.f-headline-l,
+.page-content h1.f-subheadline-l {
+  font-weight: 500;
+}
+
+// Lighter rules
+hr {
+  border: 0;
+  height: 1px;
+  background: $borderColorCustom;
+  margin: 2.5rem 0;
+}
+
+// Publication / talk tag pills
+.publication-item span,
+.talk-item span {
+  white-space: nowrap;
+}
+
+// Subtle hover on body links
+.page-main a:not(.link):hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+// Profile image — soft rounded edge, no harsh frame
+.home img {
+  border-radius: 4px;
+  max-width: 360px;
+  width: 100%;
+}
+
+// Pre/code blocks tinted with the palette
+pre {
+  background: lighten($sidebarBgColorCustom, 2%) !important;
+  border: 1px solid $borderColorCustom !important;
+  border-radius: 3px;
+}
+pre code { color: $textColorCustom; }
+
+// Reduce motion preference
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+// ---- Automatic dark mode via prefers-color-scheme ----
+// (No toggle — respects OS / browser setting only, keeps JS minimal.)
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:        #1f1812;
+    --bg-soft:   #2a2118;
+    --text:      #ece2d2;
+    --text-soft: #c9bca9;
+    --heading:   #ece2d2;
+    --headline:  #d4b896;
+    --link:      #e89a72;
+    --link-hover:#f2b48f;
+    --border:    #4a3c2e;
+    --footer:    #a89a86;
+  }
+
+  body { background: var(--bg) !important; color: var(--text) !important; }
+  h1, h2, h3, h4, h5, h6 { color: var(--heading) !important; }
+  .f-headline, .f-subheadline,
+  .f-headline-ns, .f-subheadline-ns,
+  .f-headline-m, .f-subheadline-m,
+  .f-headline-l, .f-subheadline-l,
+  .custom-headline-color { color: var(--headline) !important; }
+  .page-main a:not(.link),
+  .custom-body-link-color { color: var(--link) !important; }
+  .page-main a:not(.link):hover { color: var(--link-hover) !important; }
+  .site-brand,
+  .site-links a,
+  .custom-nav-link-color { color: var(--text) !important; }
+  .page-sidebar,
+  .bg-custom-sidebar-bg-color { background: var(--bg-soft) !important; color: var(--text-soft) !important; }
+  .b--custom-border-color { border-color: var(--border) !important; }
+  .site-footer,
+  .custom-footer-text-color { color: var(--footer) !important; }
+  hr { background: var(--border) !important; }
+  pre {
+    background: var(--bg-soft) !important;
+    border-color: var(--border) !important;
+  }
+  pre code { color: var(--text) !important; }
+  // tag pills
+  .publication-item span,
+  .talk-item span { border-color: var(--border) !important; color: var(--text-soft) !important; }
+  // buttons stay readable
+  .bg-custom-button-bg-color { background: $buttonHoverBgColorCustom !important; }
+}
