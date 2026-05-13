@@ -1,8 +1,20 @@
 invited:
+  - year: 2026
+    title: Statistical calibration of routine facility testing using probability-survey biomarkers to estimate undiagnosed prevalence
+    venue: WorldPop weekly seminar, University of Southampton
+    location: Southampton, UK
+  - year: 2026
+    title: Statistical calibration of routine facility testing using probability-survey biomarkers to estimate undiagnosed prevalence
+    venue: Spatio-Temporal Analyses Bayes (STAB) weekly seminar, Department of Biostatistics, University of Washington
+    location: Seattle, USA
   - year: 2025
     title: Re-assessing the DHS wealth index as a proxy for socio-economic status
     venue: Italian Conference on Survey Methodology (ITACOSM)
     location: Florence, Italy
+  - year: 2025
+    title: "From routine data to sample placement: model-based adaptive design and joint estimation of HIV indicators in Mozambique"
+    venue: S3RI Research Festival, University of Southampton
+    location: Southampton, UK
   - year: 2022
     title: Temporal trends and major determinants of antenatal care HIV testing in sub-Saharan Africa (2005–2021)
     venue: Infectious Diseases Epidemiology Seminar, Imperial College London
