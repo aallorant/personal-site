@@ -17,7 +17,7 @@ i welcome enquiries about research collaborations, prospective phd supervision, 
 
 ### office
 
-department of social statistics & demography
+department of social statistics and global health
 university of southampton
 southampton, uk
 
