@@ -1,8 +1,8 @@
 ---
 title: "adrien allorant"
-subtitle: "lecturer in social statistics & demography"
+subtitle: "lecturer in social statistics and global health"
 description: |
-  i'm a lecturer at the university of southampton, working at the intersection of bayesian methods, spatial statistics, small-area estimation, survey methodology, and official statistics.
+  i'm a lecturer in social statistics and global health at the university of southampton, working at the intersection of bayesian methods, spatial statistics, small-area estimation, survey methodology, and official statistics.
 
   most of my applied work focuses on hiv/aids epidemiology and immunisation coverage in sub-saharan africa, in collaboration with the world health organization, unaids, gavi, the world bank, and ministries of health.
 
