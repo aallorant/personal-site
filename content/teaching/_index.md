@@ -51,6 +51,8 @@ i teach at the intersection of statistical theory and real-world application, wi
 
 i welcome enquiries from prospective phd and master's students interested in spatial statistics, survey methodology, small-area estimation, or quantitative global health.
 
+from september 2026 i co-supervise a phd project on data-driven governance in global health, studying how donor targets and model-based estimates travel from global programmes into national and local decisions (a comparative study of pepfar in mozambique and côte d'ivoire), with joseph larmarange (ird) and kristine nilsen (southampton).
+
 ### current & recent supervisees
 
 | student | programme | institution | year |

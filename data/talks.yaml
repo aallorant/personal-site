@@ -25,6 +25,14 @@ invited:
     location: Berlin, Germany
 
 conference:
+  - year: 2026
+    title: "Why Ethnography? Studying AI adoption in official statistics as a problem of scientific practice"
+    venue: Royal Statistical Society International Conference (RSS 2026)
+    type: oral
+  - year: 2026
+    title: "Calibrating routine facility testing against probability-survey biomarkers for district-level estimation of undiagnosed HIV prevalence"
+    venue: Conference on Small Area Estimation (SAE 2026)
+    type: oral
   - year: 2025
     title: "Mismatched Measures: Comparing Asset-Based Wealth Index and Income/Consumption Poverty in Mozambique"
     venue: Italian Conference on Survey Methodology

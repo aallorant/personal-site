@@ -2,9 +2,36 @@
   dates: 2023–
   description: >
     HIV routine health information systems analysis and capacity
-    building. Delivered a week-long WHO-funded workshop in Maputo
-    (November 2025) on RHIS for HIV surveillance. Ongoing evaluation
-    of a CIFF-funded HIV self-testing pilot in Nampula Province.
+    building, and calibrated district-level estimation of undiagnosed
+    HIV prevalence. Delivered a week-long WHO-funded workshop in Maputo
+    (November 2025) on routine data for HIV surveillance. Ongoing
+    evaluation of a CIFF-funded HIV self-testing pilot in Nampula
+    Province.
   funders:
     - WHO
     - British Academy / Leverhulme Trust
+
+- partner: WHO, Gavi & UNICEF — immunisation coverage and equity
+  dates: 2023–
+  description: >
+    Spatial and small-area methods for measuring geographic
+    inequalities in childhood immunisation coverage, including a
+    critical scoping review of spatial analysis methods (accepted,
+    Vaccines) and work on the denominator problem in administrative
+    coverage estimates.
+
+- partner: UNAIDS Reference Group on Estimates, Modelling and Projections
+  dates: 2023–
+  description: >
+    Member of the reference group informing the methods behind UNAIDS
+    subnational HIV estimates, with a focus on combining survey,
+    programmatic, and routine health-system data.
+
+- partner: Register-based estimation methods (with Li-Chun Zhang, S3RI)
+  dates: 2024–
+  description: >
+    A methods programme on calibrating biased routine data against
+    sparse probability surveys, spanning selection bias in routine HIV
+    testing and denominator bias in administrative immunisation
+    coverage. Presented at SAE 2026 and in preparation as a methods
+    paper.

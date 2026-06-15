@@ -4,6 +4,7 @@ date: 2019-01-01
 authors:
   - Allorant A
   - Naudet J
+status: other
 venue: "Books and Ideas"
 tags:
   - interview

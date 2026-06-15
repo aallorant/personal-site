@@ -3,6 +3,7 @@ title: "Measuring inequities in health service delivery and their impact on heal
 date: 2021-08-01
 authors:
   - Allorant A
+status: other
 venue: "PhD thesis, University of Washington"
 tags:
   - phd-thesis
