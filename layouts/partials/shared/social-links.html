@@ -1,0 +1,34 @@
+{{/*
+  Project override of the theme partial.
+  Font Awesome renders envelope / github / linkedin fine, but the theme ships the
+  academicons stylesheet WITHOUT its webfont, so `ai ai-*` icons (Google Scholar,
+  ORCID) rendered as empty boxes. Render those two as inline SVG (Simple Icons
+  paths, currentColor) so they match the bar and adapt to dark mode. Everything
+  else falls through to the original Font Awesome `<i>`.
+*/}}
+<div class="social-icon-links" aria-hidden="true">
+  {{ range site.Params.social }}
+    {{ $pack := or .icon_pack "fas" }}
+    {{ $pack_prefix := $pack }}
+    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+      {{ $pack_prefix = "fa" }}
+    {{ end }}
+    {{ $link := .url }}
+    {{ $scheme := (urls.Parse $link).Scheme }}
+    {{ $target := "" }}
+    {{ if not $scheme }}
+      {{ $link = .url | relLangURL }}
+    {{ else if in (slice "http" "https") $scheme }}
+      {{ $target = "target=\"_blank\" rel=\"me noopener\"" }}
+    {{ end }}
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="{{ $link | safeURL }}" title="{{ .icon }}" {{ $target | safeHTMLAttr }}>
+      {{ if eq .icon "google-scholar" }}
+        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" style="width:1.15em;height:1.15em;vertical-align:-0.2em"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+      {{ else if eq .icon "orcid" }}
+        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" style="width:1.15em;height:1.15em;vertical-align:-0.2em"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947 0 .525-.422.947-.947.947-.525 0-.946-.422-.946-.947 0-.525.421-.947.946-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z"/></svg>
+      {{ else }}
+        <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} fa-lg fa-fw"></i>
+      {{ end }}
+    </a>
+  {{ end }}
+</div>

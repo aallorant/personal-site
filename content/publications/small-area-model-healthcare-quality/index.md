@@ -20,11 +20,7 @@ tags:
   - small-area-estimation
   - methods
 summary: |
-  small-area bayesian model linking facility surveys to sub-national trends in healthcare quality.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Small-area Bayesian model linking facility surveys to sub-national trends in healthcare quality.
 bibtex: |
   @article{allorant2023small,
     title   = {A small area model to assess temporal trends and sub-national disparities in healthcare quality},

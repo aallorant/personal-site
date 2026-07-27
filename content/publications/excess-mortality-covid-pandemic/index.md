@@ -21,11 +21,7 @@ tags:
   - mortality
   - global-health
 summary: |
-  systematic estimate of excess mortality due to covid-19 across countries, 2020–2021.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Systematic estimate of excess mortality due to COVID-19 across countries, 2020–2021.
 bibtex: |
   @article{wang2022estimating,
     title   = {Estimating excess mortality due to the COVID-19 pandemic: a systematic analysis of COVID-19-related mortality, 2020--21},

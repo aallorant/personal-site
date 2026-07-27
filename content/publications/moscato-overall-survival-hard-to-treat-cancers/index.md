@@ -19,11 +19,7 @@ tags:
   - precision-medicine
   - moscato
 summary: |
-  overall survival readout from the moscato single-institution molecular screening trial.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Overall survival readout from the MOSCATO single-institution molecular screening trial.
 bibtex: |
   @article{dakdouki2018overall,
     title   = {Overall survival results of the single-institution molecular screening MOSCATO trial in hard-to-treat advanced cancers},

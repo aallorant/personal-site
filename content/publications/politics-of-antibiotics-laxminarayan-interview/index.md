@@ -11,11 +11,7 @@ tags:
   - antibiotics
   - public-policy
 summary: |
-  interview with ramanan laxminarayan on the political economy of antibiotic stewardship and resistance.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Interview with Ramanan Laxminarayan on the political economy of antibiotic stewardship and resistance.
 bibtex: |
   @article{allorant2019politics,
     title  = {The Politics of Antibiotics An interview with Ramanan Laxminarayan},

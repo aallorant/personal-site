@@ -19,11 +19,7 @@ tags:
   - precision-medicine
   - moscato
 summary: |
-  updated results from moscato-01 for biliary-tract cancers — esmo annual meeting abstract.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Updated results from MOSCATO-01 for biliary-tract cancers (ESMO annual meeting abstract).
 bibtex: |
   @article{verlingue2017precisionupdate,
     title   = {Precision medicine for patients with advanced biliary tract cancers: Updated results from the prospective MOSCATO trial},

@@ -19,11 +19,7 @@ tags:
   - radiomics
   - methods
 summary: |
-  phantom study of the reproducibility and reliability of ct image texture indices used in radiomics.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Phantom study of the reproducibility and reliability of CT image texture indices used in radiomics.
 bibtex: |
   @article{caramella2018can,
     title   = {Can we trust the calculation of texture indices of CT images? A phantom study},

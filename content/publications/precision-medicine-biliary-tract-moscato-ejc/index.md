@@ -19,11 +19,7 @@ tags:
   - precision-medicine
   - moscato
 summary: |
-  prospective evidence that molecular triage in moscato-01 changed treatment course for biliary-tract cancers.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Prospective evidence that molecular triage in MOSCATO-01 changed treatment course for biliary-tract cancers.
 bibtex: |
   @article{verlingue2017precision,
     title   = {Precision medicine for patients with advanced biliary tract cancers: an effective strategy within the prospective MOSCATO-01 trial},

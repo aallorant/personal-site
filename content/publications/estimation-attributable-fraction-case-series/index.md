@@ -9,11 +9,7 @@ tags:
   - epidemiology
   - methods
 summary: |
-  short methodological note (in french) on estimating attributable risk fraction in case-series studies.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Short methodological note (in French) on estimating attributable risk fraction in case-series studies.
 bibtex: |
   @article{allorant2017estimation,
     title   = {Estimation de la fraction de risque attribuable dans les {\'e}tudes en s{\'e}rie de cas},

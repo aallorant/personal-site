@@ -15,11 +15,7 @@ tags:
   - inequality
   - methods
 summary: |
-  scoping review of how inequality in childhood immunisation coverage is measured and reported across data sources.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Scoping review of how inequality in childhood immunisation coverage is measured and reported across data sources.
 bibtex: |
   @article{lyons2024inequality,
     title   = {Inequality in childhood immunization coverage: A scoping review of data sources, analyses, and reporting methods},

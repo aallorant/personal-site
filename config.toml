@@ -1,7 +1,7 @@
 baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "adrien allorant"
+title = "Adrien Allorant"
 author = "Adrien Allorant"
 copyright = ""
 googleAnalytics = ""
@@ -30,7 +30,7 @@ enableEmoji = true
 [params]
   orgName = "Adrien Allorant"
   orgLocal = "Southampton, UK"
-  description = "Lecturer in social statistics and global health at the University of Southampton. Bayesian, spatial, and survey methods for global health."
+  description = "Lecturer in social statistics and global health at the University of Southampton and Deputy Director of S3RI. Bayesian, spatial, and survey methods for measuring health and inequality."
   favicon = "/img/favicon.ico"
   logo = ""
   mainSections = ["publications"]
@@ -82,37 +82,37 @@ enableEmoji = true
 
 [menu]
   [[menu.header]]
-    name = "about"
+    name = "About"
     title = "About"
     url = "/"
     weight = 1
   [[menu.header]]
-    name = "research"
+    name = "Research"
     title = "Research"
     url = "/research/"
     weight = 2
   [[menu.header]]
-    name = "publications"
+    name = "Publications"
     title = "Publications"
     url = "/publications/"
     weight = 3
   [[menu.header]]
-    name = "teaching"
+    name = "Teaching"
     title = "Teaching"
     url = "/teaching/"
     weight = 4
   [[menu.header]]
-    name = "talks"
+    name = "Talks"
     title = "Talks"
     url = "/talks/"
     weight = 5
   [[menu.header]]
-    name = "cv"
+    name = "CV"
     title = "CV"
     url = "/cv/"
     weight = 6
   [[menu.header]]
-    name = "contact"
+    name = "Contact"
     title = "Contact"
     url = "/contact/"
     weight = 7

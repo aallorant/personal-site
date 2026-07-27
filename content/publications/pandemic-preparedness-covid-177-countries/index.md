@@ -21,11 +21,7 @@ tags:
   - epidemiology
   - cross-country
 summary: |
-  cross-country exploratory analysis of how pandemic preparedness related to covid-19 infection and fatality rates.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Cross-country exploratory analysis of how pandemic preparedness related to COVID-19 infection and fatality rates.
 bibtex: |
   @article{bollyky2022pandemic,
     title   = {Pandemic preparedness and COVID-19: an exploratory analysis of infection and fatality rates, and contextual factors associated with preparedness in 177 countries, from Jan 1, 2020, to Sept 30, 2021},

@@ -19,11 +19,7 @@ tags:
   - wealth-index
   - inequality
 summary: |
-  cross-country comparison of wealth-related inequality in maternal tetanus vaccination across 72 lmic.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Cross-country comparison of wealth-related inequality in maternal tetanus vaccination across 72 LMICs.
 bibtex: |
   @article{johns2024comparison,
     title   = {Comparison of wealth-related inequality in tetanus vaccination coverage before and during pregnancy: A cross-sectional analysis of 72 low-and middle-income countries},

@@ -19,11 +19,7 @@ tags:
   - precision-medicine
   - moscato
 summary: |
-  esmo abstract on molecular profile and clinical outcomes in metastatic nsclc within moscato-01.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  ESMO abstract on molecular profile and clinical outcomes in metastatic NSCLC within MOSCATO-01.
 bibtex: |
   @article{buzzatti2017molecular,
     title   = {Molecular profile characterization and impact on clinical outcome in metastatic NSCLC patients enrolled in MOSCATO 01 trial},

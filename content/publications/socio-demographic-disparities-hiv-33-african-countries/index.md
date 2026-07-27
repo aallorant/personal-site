@@ -17,11 +17,10 @@ tags:
   - africa
   - survey-methodology
 summary: |
-  cross-sectional analysis of population-based surveys across 43 african countries, mapping disparities in hiv burden and care engagement.
-abstract: |
-  *[abstract — to add]*
+  Cross-sectional analysis of population-based surveys across 43 African countries, mapping disparities in HIV burden and care engagement.
 figure: figure.png
-figure_alt: "placeholder figure"
+figure_alt: "Share of variance in HIV prevalence explained by demographic, geographic, and temporal components, by African region and sex"
+figure_caption: "Share of variance in HIV prevalence attributable to age, education, wealth, urban/rural location, district, country, and time (with their time interactions), by region and sex."
 bibtex: |
   @article{allorant2025socio,
     title   = {Socio-demographic and geographic disparities in HIV burden and care engagement: a cross-sectional analysis of population-based surveys in 43 African countries},

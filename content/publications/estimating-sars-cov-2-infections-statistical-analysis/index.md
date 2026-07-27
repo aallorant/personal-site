@@ -20,11 +20,7 @@ tags:
   - modelling
   - global-health
 summary: |
-  global statistical estimate of daily and cumulative sars-cov-2 infections through november 2021.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Global statistical estimate of daily and cumulative SARS-CoV-2 infections through November 2021.
 bibtex: |
   @article{barber2022estimating,
     title   = {Estimating global, regional, and national daily and cumulative infections with SARS-CoV-2 through Nov 14, 2021: a statistical analysis},

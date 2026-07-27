@@ -12,11 +12,7 @@ tags:
   - india
   - elites
 summary: |
-  french-language companion to the socio-economic review article on india's top business leaders.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  French-language companion to the Socio-Economic Review article on India's top business leaders.
 bibtex: |
   @article{naudet2018heritiers,
     title   = {H{\'e}ritiers, aristocrates d'entreprise et {\guillemotleft}m{\'e}ritocrates{\guillemotright}: l'espace social du grand patronat en Inde},

@@ -19,11 +19,7 @@ tags:
   - precision-medicine
   - moscato
 summary: |
-  pediatric arm of moscato-01: prospective molecular stratification trial in children with advanced cancers.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Pediatric arm of MOSCATO-01: prospective molecular stratification trial in children with advanced cancers.
 bibtex: |
   @article{harttrampf2017molecular,
     title   = {Molecular screening for cancer treatment optimization (MOSCATO-01) in pediatric patients: a single-institutional prospective molecular stratification trial},

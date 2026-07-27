@@ -20,11 +20,7 @@ tags:
   - mortality
   - epidemiology
 summary: |
-  systematic analysis of how covid-19 ifr varied with age, time, and geography before vaccine roll-out.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Systematic analysis of how COVID-19 IFR varied with age, time, and geography before vaccine roll-out.
 bibtex: |
   @article{sorensen2022variation,
     title   = {Variation in the COVID-19 infection-fatality ratio by age, time, and geography during the pre-vaccine era: A systematic analysis},

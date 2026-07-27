@@ -1,65 +1,65 @@
 ---
-title: "teaching"
+title: "Teaching"
 description: |
-  current courses, previous teaching, and student supervision.
+  Current courses, previous teaching, and student supervision.
 show_title_as_headline: true
 layout: standard
 type: page
 ---
 
-i teach at the intersection of statistical theory and real-world application, with an emphasis on social science and public health contexts. i have taught at all levels — from introductory statistics to advanced data science — across four institutions in three countries.
+I teach at the intersection of statistical theory and real-world application, with an emphasis on social science and public health contexts. I have taught at all levels, from introductory statistics to advanced data science, across four institutions in three countries.
 
 ---
 
-## current courses — university of southampton
+## Current courses, University of Southampton
 
-**RESM2001 — introduction to data analytics** · module lead · spring 2025 & 2026
+**RESM2001: Introduction to Data Analytics** · module lead · spring 2025 & 2026
 
-> foundation course covering data wrangling, visualisation, and introductory modelling for social science students.
+> Foundation course covering data wrangling, visualisation, and introductory modelling for social science students.
 
-**RESM3001 — applied quantitative methods for social sciences** · module lead · autumn 2024 & 2025
+**RESM3001: Applied Quantitative Methods for Social Sciences** · module lead · autumn 2024 & 2025
 
-> advanced methods course covering regression modelling, causal inference, and applied data analysis in R.
-
----
-
-## previous teaching
-
-### reed college (2023–2024)
-
-- **MATH 241 — data science** · instructor · spring 2024
-- **MATH 141 — introduction to statistics & probability** · instructor · autumn 2023
-
-### mcgill university (2022–2023)
-
-- **EPIB 638 — mathematical modeling of infectious diseases** · guest lecturer · autumn 2022
-
-### university of washington (2017–2021)
-
-- **HMS 520 — data analysis and programming tools in health sciences** · teaching fellow · autumn 2021
-- **GH 345 — global health economics** · teaching assistant · spring 2021
-- **GH 556 — advanced quantitative methods for global health** · teaching assistant · winter 2020 & 2021
-
-### sciencespo paris & sorbonne (2014–2016)
-
-- **micro-economic evaluation of public policy** · teaching assistant · autumn 2016
-- **introduction to statistics and econometrics** · teaching assistant · autumn 2014 & 2015
+> Advanced methods course covering regression modelling, causal inference, and applied data analysis in R.
 
 ---
 
-## supervision
+## Previous teaching
 
-i welcome enquiries from prospective phd and master's students interested in spatial statistics, survey methodology, small-area estimation, or quantitative global health.
+### Reed College (2023–2024)
 
-from september 2026 i co-supervise a phd project on data-driven governance in global health, studying how donor targets and model-based estimates travel from global programmes into national and local decisions (a comparative study of pepfar in mozambique and côte d'ivoire), with joseph larmarange (ird) and kristine nilsen (southampton).
+- **MATH 241: Data Science** · instructor · spring 2024
+- **MATH 141: Introduction to Statistics & Probability** · instructor · autumn 2023
 
-### current & recent supervisees
+### McGill University (2022–2023)
 
-| student | programme | institution | year |
+- **EPIB 638: Mathematical Modeling of Infectious Diseases** · guest lecturer · autumn 2022
+
+### University of Washington (2017–2021)
+
+- **HMS 520: Data Analysis and Programming Tools in Health Sciences** · teaching fellow · autumn 2021
+- **GH 345: Global Health Economics** · teaching assistant · spring 2021
+- **GH 556: Advanced Quantitative Methods for Global Health** · teaching assistant · winter 2020 & 2021
+
+### Sciences Po Paris & Sorbonne (2014–2016)
+
+- **Micro-economic Evaluation of Public Policy** · teaching assistant · autumn 2016
+- **Introduction to Statistics and Econometrics** · teaching assistant · autumn 2014 & 2015
+
+---
+
+## Supervision
+
+I welcome enquiries from prospective PhD and master's students interested in spatial statistics, survey methodology, small-area estimation, or quantitative global health.
+
+From September 2026 I co-supervise a PhD project on data-driven governance in global health, studying how donor targets and model-based estimates travel from global programmes into national and local decisions (a comparative study of PEPFAR in Mozambique and Côte d'Ivoire), with Joseph Larmarange (IRD) and Kristine Nilsen (Southampton).
+
+### Current & recent supervisees
+
+| Student | Programme | Institution | Year |
 |---------|-----------|-------------|------|
-| omar youssif | summer research & thesis | reed college | 2023– |
-| evan heintz | summer research | reed college | 2024 |
-| asa ferguson | senior thesis | reed college | 2023–2024 |
-| louise xu | senior thesis | reed college | 2023–2024 |
-| paul muset | global health scholar | mcgill university | 2022–2023 |
-| caroline hodgins | global health scholar | mcgill university | 2022–2023 |
+| Omar Youssif | Summer research & thesis | Reed College | 2023– |
+| Evan Heintz | Summer research | Reed College | 2024 |
+| Asa Ferguson | Senior thesis | Reed College | 2023–2024 |
+| Louise Xu | Senior thesis | Reed College | 2023–2024 |
+| Paul Muset | Global health scholar | McGill University | 2022–2023 |
+| Caroline Hodgins | Global health scholar | McGill University | 2022–2023 |

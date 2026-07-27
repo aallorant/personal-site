@@ -19,11 +19,7 @@ tags:
   - precision-medicine
   - moscato
 summary: |
-  prospective evaluation of the real-world risks of image-guided tumour biopsies in moscato-01.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Prospective evaluation of the real-world risks of image-guided tumour biopsies in MOSCATO-01.
 bibtex: |
   @article{prud2018image,
     title   = {Image-guided tumour biopsies in a prospective molecular triage study (MOSCATO-01): What are the real risks?},

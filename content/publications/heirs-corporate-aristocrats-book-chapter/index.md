@@ -13,9 +13,7 @@ tags:
   - india
   - sociology
 summary: |
-  book-chapter treatment of the social space of india's corporate elite, mapping the interplay of inheritance and meritocratic claims among top ceos and chairmen.
-abstract: |
-  *[abstract — to add]*
+  Book-chapter treatment of the social space of India's corporate elite, mapping the interplay of inheritance and meritocratic claims among top CEOs and chairmen.
 bibtex: |
   @incollection{naudet2019heirs,
     title     = {Heirs, corporate aristocrats, and 'meritocrats': the social space of top CEOs and chairmen in India},

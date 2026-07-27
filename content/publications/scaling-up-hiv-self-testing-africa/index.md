@@ -27,11 +27,10 @@ tags:
   - self-testing
   - africa
 summary: |
-  cross-country analysis of national programmatic data on hiv self-testing scale-up across eight african countries.
-abstract: |
-  *[abstract — to add]*
+  Cross-country analysis of national programmatic data on HIV self-testing scale-up across eight African countries.
 figure: figure.png
-figure_alt: "placeholder figure for paper on scaling up hiv self-testing in africa"
+figure_alt: "HIV testing rates per 1,000 inhabitants over time by testing modality across eight countries"
+figure_caption: "HIV testing rates per 1,000 inhabitants over time by modality across the eight countries (purple: self-testing; yellow: conventional testing; green: total testing). The vertical line marks the onset of COVID-19 (Q2 2020)."
 bibtex: |
   @article{allorant2026scaling,
     title  = {Scaling Up {HIV} Self-Testing in {Africa}: Insights From National Programmatic Data in Eight Countries},

@@ -12,11 +12,7 @@ tags:
   - india
   - elites
 summary: |
-  social-space analysis of the educational, kinship, and class backgrounds of india's top ceos and chairmen.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Social-space analysis of the educational, kinship, and class backgrounds of India's top CEOs and chairmen.
 bibtex: |
   @article{naudet2018heirs,
     title   = {Heirs, corporate aristocrats and 'Meritocrats': the social space of top CEOs and Chairmen in India},

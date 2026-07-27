@@ -10,11 +10,7 @@ tags:
   - health-systems
   - small-area-estimation
 summary: |
-  doctoral thesis on small-area methods for measuring health-service delivery inequities and their outcomes in lmic.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Doctoral thesis on small-area methods for measuring health-service delivery inequities and their outcomes in LMICs.
 bibtex: |
   @phdthesis{allorant2021measuring,
     title  = {Measuring inequities in health service delivery and their impact on health outcomes in low-to middle-income countries},

@@ -11,9 +11,7 @@ tags:
   - machine learning
   - methods
 summary: |
-  frames "algorithm-assisted inference" as a continuity with model-assisted estimation rather than a clean break, and asks what happens to quality concepts such as accuracy, comparability and reproducibility as machine learning enters the statistical production chain.
-abstract: |
-  *[abstract — to add]*
+  Frames "algorithm-assisted inference" as a continuity with model-assisted estimation rather than a clean break, and asks what happens to quality concepts such as accuracy, comparability and reproducibility as machine learning enters the statistical production chain.
 bibtex: |
   @article{allorant2026algorithm,
     title   = {Algorithm-Assisted Inference and the Future of Official Statistics},

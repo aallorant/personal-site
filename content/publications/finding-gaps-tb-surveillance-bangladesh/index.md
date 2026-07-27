@@ -19,11 +19,7 @@ tags:
   - surveillance
   - bangladesh
 summary: |
-  diagnostic of where bangladesh's routine tb surveillance under-detects cases relative to other data sources.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Diagnostic of where Bangladesh's routine TB surveillance under-detects cases relative to other data sources.
 bibtex: |
   @article{allorant2022finding,
     title   = {Finding gaps in routine TB surveillance activities in Bangladesh},

@@ -2,6 +2,7 @@
 title: "HIV testing services in Mozambique one year after the PEPFAR stop-work order"
 date: 2026-06-02
 status: under-review
+draft: true
 authors:
   - Allorant A
   - Amane G
@@ -17,9 +18,7 @@ tags:
   - mozambique
   - routine data
 summary: |
-  analysis of how HIV testing services in mozambique changed in the year following the pepfar stop-work order, drawing on routine health-system data.
-abstract: |
-  *[abstract — to add]*
+  Analysis of how HIV testing services in Mozambique changed in the year following the PEPFAR stop-work order, drawing on routine health-system data.
 bibtex: |
   @article{allorant2026hivtesting,
     title   = {HIV testing services in Mozambique one year after the PEPFAR stop-work order},

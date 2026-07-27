@@ -1,12 +1,12 @@
 ---
-title: "adrien allorant"
-subtitle: "lecturer in social statistics and global health"
+title: "Adrien Allorant"
+subtitle: "Lecturer in social statistics and global health"
 description: |
-  i'm a lecturer in social statistics and global health at the university of southampton, in the department of social statistics and demography and the southampton statistical sciences research institute (s3ri). i work at the intersection of bayesian methods, spatial statistics, small-area estimation, survey methodology, and official statistics.
+  I'm a Lecturer in social statistics and global health at the University of Southampton, appointed jointly in the Department of Social Statistics and Demography and the Southampton Statistical Sciences Research Institute (S3RI), where I serve as Deputy Director. My work sits at the intersection of Bayesian methods, spatial statistics, small-area estimation, and survey methodology.
 
-  one current thread asks how routine administrative data, calibrated against sparse probability surveys, can sustain subnational estimates of health when survey funding is shrinking; another studies what happens to official statistics when machine-learning methods enter their production. most of my applied work concerns hiv and immunisation coverage across african countries, in collaboration with the world health organization, unaids, gavi, unicef, and ministries of health.
+  Three strands run through my research. The first develops methods to **measure health where data are sparse**, calibrating the routine data that countries already collect and own against small probability surveys, so that subnational estimates of HIV and immunisation coverage hold up as survey funding contracts. The second asks what becomes of **official statistics when machine-learning methods enter their production**, both as a question of estimation theory and as an ethnography of the statistical office. The third concerns **survey methodology and the measurement of inequality**, from the wealth index used across household surveys to the way excluded populations distort the official picture.
 
-  this site is a slow corner of the internet for my research, teaching, and writing.
+  Most of my applied work concerns HIV and immunisation coverage across African countries, in collaboration with the World Health Organization, UNAIDS, Gavi, UNICEF, and ministries of health. This site is a slow corner of the internet for my research, teaching, and writing.
 images:
   - img/profile.jpeg
 image_left: false

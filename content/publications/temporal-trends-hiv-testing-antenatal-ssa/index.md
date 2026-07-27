@@ -19,11 +19,7 @@ tags:
   - hiv-testing
   - africa
 summary: |
-  pooled analysis of antenatal hiv testing coverage and its determinants across sub-saharan africa, 2005–2021.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Pooled analysis of antenatal HIV testing coverage and its determinants across Sub-Saharan Africa, 2005–2021.
 bibtex: |
   @article{allorant2024temporal,
     title   = {Temporal trends and determinants of HIV testing at antenatal care in Sub-Saharan Africa: a pooled analysis of population-based surveys (2005--2021)},

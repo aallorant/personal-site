@@ -19,11 +19,7 @@ tags:
   - haiti
   - covid-19
 summary: |
-  short-term disruption of hiv care, art continuity, and service delivery in haiti during the early covid-19 pandemic.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Short-term disruption of HIV care, ART continuity, and service delivery in Haiti during the early COVID-19 pandemic.
 bibtex: |
   @article{celestin2021short,
     title   = {Short-term effects of the COVID-19 pandemic on HIV care utilization, service delivery, and continuity of HIV antiretroviral treatment (ART) in Haiti},

@@ -15,11 +15,7 @@ tags:
   - haiti
   - electronic-medical-records
 summary: |
-  using electronic medical records to close adherence gaps to hiv clinical guidelines in haiti.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Using electronic medical records to close adherence gaps to HIV clinical guidelines in Haiti.
 bibtex: |
   @article{allorant2020closing,
     title   = {Closing the gap in implementation of HIV clinical guidelines in a low resource setting using electronic medical records},

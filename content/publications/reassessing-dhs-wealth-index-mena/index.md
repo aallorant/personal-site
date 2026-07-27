@@ -2,6 +2,7 @@
 title: "Reassessing the DHS wealth index as a proxy for socio-economic status: insights from population surveys in the Middle East and North Africa"
 date: 2026-06-01
 status: under-review
+draft: true
 authors:
   - Youssif O
   - Allorant A
@@ -11,9 +12,7 @@ tags:
   - wealth
   - mena
 summary: |
-  examines whether the dhs wealth index tracks socio-economic status across population surveys in the middle east and north africa.
-abstract: |
-  *[abstract — to add]*
+  Examines whether the DHS wealth index tracks socio-economic status across population surveys in the Middle East and North Africa.
 bibtex: |
   @article{youssif2026reassessing,
     title   = {Reassessing the DHS wealth index as a proxy for socio-economic status: insights from population surveys in the Middle East and North Africa},

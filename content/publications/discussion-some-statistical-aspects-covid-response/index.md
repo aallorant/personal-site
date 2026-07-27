@@ -9,11 +9,7 @@ tags:
   - covid-19
   - methods
 summary: |
-  invited discussion of wood et al. on the statistical evidence underpinning the uk covid-19 response.
-abstract: |
-  *[abstract — to add]*
-figure: figure.png
-figure_alt: "placeholder figure"
+  Invited discussion of Wood et al. on the statistical evidence underpinning the UK COVID-19 response.
 bibtex: |
   @article{allorant2026adrien,
     title   = {Adrien Allorant's contribution to the Discussion of 'Some statistical aspects of the COVID-19 response' by Wood et al.},
