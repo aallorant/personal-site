@@ -30,7 +30,20 @@
         <h2 class="f4 ttu tracked custom-headline-color mt5 mb3">{{ $label }}</h2>
         <ul class="publications-list list pl0 mt0">
           {{ range .ByDate.Reverse }}
-            <li class="publication-item mb5 pb4 bb b--custom-border-color">
+            {{ $p := . }}
+            {{ $file := $p.Params.figure }}
+            {{ if and (not $file) $p.Params.figures }}{{ $file = (index $p.Params.figures 0).file }}{{ end }}
+            {{ $thumb := "" }}
+            {{ with $file }}{{ with $p.Resources.GetMatch . }}{{ $thumb = .Fit "400x300" }}{{ end }}{{ end }}
+            <li class="publication-item pub-row">
+              <a class="pub-thumb link" href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">
+                {{ if $thumb }}
+                  <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="" loading="lazy">
+                {{ else }}
+                  <span class="thumb-tile">{{ with .Params.tags }}{{ index . 0 | replaceRE "-" " " }}{{ else }}paper{{ end }}</span>
+                {{ end }}
+              </a>
+              <div class="pub-body">
               <div class="flex-l items-baseline justify-between">
                 <h3 class="f3 mv0 lh-title">
                   <a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -57,6 +70,7 @@
                   {{ range . }}<span class="dib mr2 ph2 pv1 ba b--custom-border-color br1 f7 ttu tracked">{{ . }}</span>{{ end }}
                 </p>
               {{ end }}
+              </div>
             </li>
           {{ end }}
         </ul>

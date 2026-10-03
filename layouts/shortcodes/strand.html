@@ -1,0 +1,8 @@
+{{- /* Research strand header: numbered kicker, large title, optional lead sentence.
+     Usage: {{< strand n="1" title="..." lead="..." >}} */ -}}
+{{- $title := .Get "title" -}}
+<header class="strand-head" id="{{ $title | anchorize }}">
+  {{- with .Get "n" }}<p class="strand-kicker">Strand {{ . }}</p>{{ end }}
+  <h2 class="strand-title">{{ $title }}</h2>
+  {{- with .Get "lead" }}<p class="strand-lead">{{ . | markdownify }}</p>{{ end }}
+</header>

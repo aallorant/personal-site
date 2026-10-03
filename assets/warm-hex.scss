@@ -1,32 +1,32 @@
-// Warm palette — cream / deep brown / terracotta / sand
+// Palette A, paper white and deep teal (2026-10).
 // File name contains "hex" so apéro's scaffold loads set-theme afterwards.
-// WCAG AA verified for body text and link colors against background.
+// Contrast on #fbfaf7: text 14.6:1, teal links 6.0:1, footer 5.8:1 (WCAG AA).
 
 // Base surfaces
-$siteBgColorCustom:       #f5efe6; // cream — page background
-$sidebarBgColorCustom:    #ede5d4; // warm sand-cream — sidebar / panels
+$siteBgColorCustom:       #fbfaf7; // paper white, page background
+$sidebarBgColorCustom:    #eef3f3; // pale teal-grey panels
 
-// Text — deep brown on cream, ~10:1 contrast
-$textColorCustom:         #3a2e26;
-$sidebarTextColorCustom:  #3a2e26;
+// Text
+$textColorCustom:         #1e2a2f;
+$sidebarTextColorCustom:  #1e2a2f;
 
 // Headings
-$headlineColorCustom:     #5a3a26; // medium brown — used in .f-headline / .f-subheadline
-$headingColorCustom:      #3a2e26; // h1–h6
+$headlineColorCustom:     #2f4a50;
+$headingColorCustom:      #1e2a2f;
 
-// Links — deep terracotta, ~4.9:1 contrast on cream (AA normal text)
-$bodyLinkColorCustom:     #a04e2a;
-$navLinkColorCustom:      #3a2e26; // nav uses heading color; underline animation uses bodyLink
-$sidebarLinkColorCustom:  #a04e2a;
+// Links, deep teal
+$bodyLinkColorCustom:     #1d6b73;
+$navLinkColorCustom:      #1e2a2f;
+$sidebarLinkColorCustom:  #1d6b73;
 
-// Footer — warm grey, ~5.4:1 contrast on cream
-$footerTextColorCustom:   #6a5a4c;
+// Footer
+$footerTextColorCustom:   #55646a;
 
-// Buttons — cream-on-terracotta, hover deeper terracotta
-$buttonTextColorCustom:        #f5efe6;
-$buttonHoverTextColorCustom:   #f5efe6;
-$buttonBgColorCustom:          #a04e2a;
-$buttonHoverBgColorCustom:     #7d3818;
+// Buttons
+$buttonTextColorCustom:        #ffffff;
+$buttonHoverTextColorCustom:   #ffffff;
+$buttonBgColorCustom:          #1d6b73;
+$buttonHoverBgColorCustom:     #134c52;
 
-// Borders — sand
-$borderColorCustom:       #d4b896;
+// Borders
+$borderColorCustom:       #cfdcdc;

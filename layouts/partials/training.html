@@ -1,0 +1,19 @@
+{{- with site.Data.training }}
+<section class="training" aria-labelledby="training-heading">
+  <h2 id="training-heading" class="section-title">Where I trained</h2>
+  <div class="training-grid">
+    {{- range . }}
+    <article class="training-card">
+      <p class="training-years">{{ .years }}</p>
+      <h3 class="training-stage">{{ .stage }}</h3>
+      <p class="training-place"><a href="{{ .place_url }}" rel="noopener">{{ .place }}</a></p>
+      <ul class="training-people">
+        {{- range .people }}
+        <li><a href="{{ .url }}" rel="noopener">{{ .name }}</a>{{ with .note }}<span>{{ . }}</span>{{ end }}</li>
+        {{- end }}
+      </ul>
+    </article>
+    {{- end }}
+  </div>
+</section>
+{{- end }}

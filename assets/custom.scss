@@ -108,16 +108,16 @@ pre code { color: $textColorCustom; }
 // (No toggle — respects OS / browser setting only, keeps JS minimal.)
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg:        #1f1812;
-    --bg-soft:   #2a2118;
-    --text:      #ece2d2;
-    --text-soft: #c9bca9;
-    --heading:   #ece2d2;
-    --headline:  #d4b896;
-    --link:      #e89a72;
-    --link-hover:#f2b48f;
-    --border:    #4a3c2e;
-    --footer:    #a89a86;
+    --bg:        #121a1c;
+    --bg-soft:   #1a2528;
+    --text:      #e3ebec;
+    --text-soft: #b5c4c6;
+    --heading:   #eef4f4;
+    --headline:  #9cc9cc;
+    --link:      #6cc3c9;
+    --link-hover:#93d6db;
+    --border:    #2e4044;
+    --footer:    #93a4a7;
   }
 
   body { background: var(--bg) !important; color: var(--text) !important; }
@@ -149,4 +149,222 @@ pre code { color: $textColorCustom; }
   .talk-item span { border-color: var(--border) !important; color: var(--text-soft) !important; }
   // buttons stay readable
   .bg-custom-button-bg-color { background: $buttonHoverBgColorCustom !important; }
+
+  .site-header { background: var(--bg) !important; }
+
+  // redesign components
+  .project-card, .partner-card, .training-card { background: var(--bg-soft) !important; border-color: var(--border) !important; }
+  .project-card { border-left-color: var(--link) !important; }
+  .partner-card, .training-card { border-top-color: var(--link) !important; }
+  .strand-head, .section-title, .page-content > h2, .post-body > h2 { border-top-color: var(--link) !important; }
+  .strand-kicker, .project-with, .partner-short, .training-years, .page-content > h3 { color: var(--link) !important; }
+  .strand-title, .project-title, .partner-name a, .pub-body h3 a { color: var(--heading) !important; }
+  .strand-lead, .project-venue, .training-people span { color: var(--text-soft) !important; }
+  .pub-row, .project-papers { border-color: var(--border) !important; }
+  .thumb-tile { background: #1d6b73 !important; color: #eef4f4 !important; }
 }
+
+// =====================================================================
+// Hierarchy and components (2026-10 redesign)
+// =====================================================================
+$accentDeep: $buttonHoverBgColorCustom;
+$surface:    lighten($siteBgColorCustom, 3%);
+
+// Page-level h2 inside standard pages: dark, heavier, with a rule above
+.page-content > h2,
+.post-body > h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: $headingColorCustom;
+  margin-top: 3.5rem;
+  padding-top: 1.25rem;
+  border-top: 3px solid $bodyLinkColorCustom;
+}
+.page-content > h3,
+.post-body > h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: $bodyLinkColorCustom;
+  margin-top: 2rem;
+}
+
+// ---- Research strands ----
+.strand-head {
+  margin: 4.5rem 0 1.75rem;
+  padding: 1.5rem 0 0;
+  border-top: 4px solid $bodyLinkColorCustom;
+}
+.strand-kicker {
+  margin: 0 0 .35rem;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: $bodyLinkColorCustom;
+}
+.strand-title {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.15;
+  font-weight: 600;
+  color: $headingColorCustom;
+}
+.strand-lead {
+  margin: .6rem 0 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: $footerTextColorCustom;
+  max-width: 46rem;
+}
+
+// ---- Project cards ----
+.project-card {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1.5rem;
+  margin: 0 0 1.5rem;
+  padding: 1.25rem;
+  background: $surface;
+  border: 1px solid $borderColorCustom;
+  border-left: 5px solid $bodyLinkColorCustom;
+  border-radius: 6px;
+}
+.project-thumb img,
+.project-thumb .thumb-tile {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  padding: 4px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid $borderColorCustom;
+}
+.project-title {
+  margin: 0 0 .25rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: $headingColorCustom;
+}
+.project-with {
+  margin: 0 0 .6rem;
+  font-size: .9rem;
+  font-weight: 600;
+  color: $bodyLinkColorCustom;
+}
+.project-text p { margin: 0 0 .6rem; line-height: 1.55; }
+.project-papers {
+  margin: .5rem 0 0;
+  padding: .6rem 0 0 1.1rem;
+  border-top: 1px dashed $borderColorCustom;
+  font-size: .9rem;
+  line-height: 1.45;
+}
+.project-papers li { margin-bottom: .3rem; }
+.project-venue { color: $footerTextColorCustom; }
+
+// Fallback tile when a project or paper has no figure
+.thumb-tile {
+  padding: .5rem !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: .5rem;
+  background: $bodyLinkColorCustom !important;
+  color: $siteBgColorCustom;
+  font-family: Fraunces, serif;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  text-transform: lowercase;
+  border: 0 !important;
+}
+
+// ---- Publications list with thumbnails ----
+.pub-row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1.25rem;
+  padding: 1.25rem 0 1.5rem;
+  border-bottom: 1px solid $borderColorCustom;
+}
+.pub-thumb img,
+.pub-thumb .thumb-tile {
+  display: block;
+  width: 150px;
+  aspect-ratio: 15 / 11;
+  object-fit: contain;
+  padding: 3px;
+  border-radius: 4px;
+  border: 1px solid $borderColorCustom;
+  background: #fff;
+}
+.pub-thumb .thumb-tile { font-size: .85rem; }
+.pub-body h3 { font-size: 1.3rem !important; font-weight: 600; }
+.pub-body h3 a { color: $headingColorCustom !important; }
+.pub-body h3 a:hover { color: $bodyLinkColorCustom !important; }
+.publications-list + h2,
+.page-content > h2.ttu {
+  border-top: 3px solid $bodyLinkColorCustom;
+  padding-top: 1rem;
+}
+
+// ---- Partners and training ----
+.home-extra { padding: 0 1rem; }
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 4rem 0 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 3px solid $bodyLinkColorCustom;
+  color: $headingColorCustom;
+}
+.partner-grid,
+.training-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+}
+.partner-card,
+.training-card {
+  padding: 1.1rem 1.2rem;
+  background: $surface;
+  border: 1px solid $borderColorCustom;
+  border-top: 4px solid $bodyLinkColorCustom;
+  border-radius: 6px;
+}
+.partner-short,
+.training-years {
+  margin: 0 0 .3rem;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: $bodyLinkColorCustom;
+}
+.partner-name,
+.training-stage {
+  margin: 0 0 .5rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.partner-name a { color: $headingColorCustom; text-decoration: none; }
+.partner-name a:hover { color: $bodyLinkColorCustom; text-decoration: underline; }
+.partner-role { margin: 0; font-size: .92rem; line-height: 1.5; }
+.partner-links { margin: .6rem 0 0; font-size: .85rem; }
+.training-place { margin: 0 0 .6rem; font-size: .92rem; }
+.training-people { margin: 0; padding: 0; list-style: none; }
+.training-people li { margin-bottom: .55rem; line-height: 1.35; }
+.training-people a { font-weight: 600; }
+.training-people span { display: block; font-size: .85rem; color: $footerTextColorCustom; }
+
+@media (max-width: 40em) {
+  .project-card { grid-template-columns: 1fr; }
+  .pub-row { grid-template-columns: 96px 1fr; gap: .9rem; }
+  .pub-thumb img, .pub-thumb .thumb-tile { width: 96px; }
+  .strand-title { font-size: 1.6rem; }
+}
+
+.pub-thumb, .project-thumb { align-self: start; }

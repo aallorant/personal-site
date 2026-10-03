@@ -1,0 +1,17 @@
+{{- with site.Data.partners }}
+<section class="partners" aria-labelledby="partners-heading">
+  <h2 id="partners-heading" class="section-title">Partners</h2>
+  <div class="partner-grid">
+    {{- range . }}
+    <article class="partner-card">
+      <p class="partner-short">{{ .short }}</p>
+      <h3 class="partner-name"><a href="{{ .url }}" rel="noopener">{{ .name }}</a></h3>
+      <p class="partner-role">{{ .role }}</p>
+      {{- with .links }}
+      <p class="partner-links">{{ range $i, $l := . }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}" rel="noopener">{{ $l.label }}</a>{{ end }}</p>
+      {{- end }}
+    </article>
+    {{- end }}
+  </div>
+</section>
+{{- end }}

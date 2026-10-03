@@ -1,0 +1,44 @@
+{{- /* Research project card with thumbnail.
+     Params:
+       title   card heading
+       img     path of a publication page whose figure becomes the thumbnail
+       mark    short label for the fallback tile when there is no figure
+       with    collaborators line (markdown)
+       papers  "|"-separated publication page paths, listed as links
+     Body: description (markdown). */ -}}
+{{- $thumb := "" -}}
+{{- with .Get "img" -}}
+  {{- with site.GetPage . -}}
+    {{- $p := . -}}
+    {{- $file := $p.Params.figure -}}
+    {{- if and (not $file) $p.Params.figures -}}{{- $file = (index $p.Params.figures 0).file -}}{{- end -}}
+    {{- with $file -}}
+      {{- with $p.Resources.GetMatch . -}}
+        {{- $thumb = .Fit "600x400" -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<article class="project-card">
+  <div class="project-thumb">
+    {{- if $thumb }}
+      <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="" loading="lazy">
+    {{- else }}
+      <div class="thumb-tile" aria-hidden="true">{{ .Get "mark" | default "·" }}</div>
+    {{- end }}
+  </div>
+  <div class="project-body">
+    <h3 class="project-title">{{ .Get "title" }}</h3>
+    {{- with .Get "with" }}<p class="project-with">{{ . | markdownify }}</p>{{ end }}
+    <div class="project-text">{{ .Inner | markdownify }}</div>
+    {{- with .Get "papers" }}
+      <ul class="project-papers">
+        {{- range split . "|" }}
+          {{- with site.GetPage (trim . " ") }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.venue }} <span class="project-venue">{{ . }}{{ with $.Page.Date }}{{ end }}</span>{{ end }}</li>
+          {{- end }}
+        {{- end }}
+      </ul>
+    {{- end }}
+  </div>
+</article>

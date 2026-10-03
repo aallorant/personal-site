@@ -1,0 +1,24 @@
+# Training and mentors, shown on the home page.
+- stage: Postdoctoral fellowship
+  years: 2022–2023
+  place: McGill University
+  place_url: https://www.mcgill.ca/epi-biostat-occh/
+  people:
+    - name: Prof. Mathieu Maheu-Giroux
+      url: https://www.mcgill.ca/epi-biostat-occh/mathieu-maheu-giroux
+      note: McGill University
+    - name: Prof. Jeff Imai-Eaton
+      url: https://hsph.harvard.edu/epidemiology/news/new-faculty-qa-jeff-imai-eaton/
+      note: Harvard T.H. Chan School of Public Health
+
+- stage: PhD in Global Health Metrics
+  years: 2017–2021
+  place: Department of Global Health, University of Washington, and the Institute for Health Metrics and Evaluation (IHME)
+  place_url: https://globalhealth.washington.edu/
+  people:
+    - name: Prof. Bobby Reiner
+      url: https://www.healthdata.org/about/bobby-reiner
+      note: committee chair, IHME
+    - name: Prof. Jon Wakefield
+      url: https://www.biostat.washington.edu/people/jon-wakefield
+      note: committee member, Departments of Biostatistics and Statistics, and the Spatio-Temporal Analyses Bayes (STAB) group

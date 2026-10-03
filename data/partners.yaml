@@ -1,0 +1,45 @@
+# Institutional partners shown on the home and research pages.
+# Only partnerships that are public through a publication, a funded award
+# or a delivered workshop belong here.
+- name: World Health Organization
+  short: WHO
+  url: https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes
+  role: >
+    HIV self-testing analysis and a routine-data workshop for the Mozambique
+    Ministry of Health, both under WHO agreements; immunisation-coverage
+    methods with the Department of Immunization, Vaccines and Biologicals.
+  links:
+    - label: HIV programmes
+      url: https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes
+    - label: Immunization, Vaccines and Biologicals
+      url: https://www.who.int/teams/immunization-vaccines-and-biologicals
+
+- name: Mozambique Ministry of Health
+  short: MISAU
+  url: https://misau.gov.mz
+  role: >
+    Routine health information for HIV surveillance, co-authored analyses of
+    the national HIV testing programme, and immunisation-coverage work under
+    the Global Partnership Award.
+
+- name: Kinshasa School of Public Health
+  short: KSPH
+  url: https://www.espkinshasa.net
+  role: >
+    African co-lead of the Global Partnership Award on small-area
+    immunisation coverage in the Democratic Republic of the Congo.
+
+- name: Bluesquare
+  short: Bluesquare
+  url: https://bluesquarehub.com
+  role: >
+    Partner on the Global Partnership Award. Bluesquare builds the digital
+    health platforms that manage routine immunisation data in the Democratic
+    Republic of the Congo.
+
+- name: UNAIDS Reference Group on Estimates, Modelling and Projections
+  short: UNAIDS
+  url: https://www.unaids.org
+  role: >
+    Member of the reference group that advises on the methods behind
+    national and subnational HIV estimates.
