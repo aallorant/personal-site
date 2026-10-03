@@ -7,6 +7,7 @@ authors:
   - Ferry M
 venue: "Entreprises et histoire"
 volume: "90(1):88–105"
+doi: "10.3917/eh.090.0088"
 tags:
   - sociology
   - india
@@ -22,6 +23,7 @@ bibtex: |
     number  = {1},
     pages   = {88--105},
     year    = {2018},
-    publisher = {ESKA}
+    publisher = {ESKA},
+    doi     = {10.3917/eh.090.0088}
   }
 ---

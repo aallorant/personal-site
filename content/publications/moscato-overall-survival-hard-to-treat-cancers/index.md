@@ -14,6 +14,7 @@ authors:
   - Vassal G
 venue: "Cancer Research"
 volume: "78(13 Suppl):2953"
+doi: "10.1158/1538-7445.AM2018-2953"
 tags:
   - oncology
   - precision-medicine
@@ -29,6 +30,7 @@ bibtex: |
     number  = {13\_Supplement},
     pages   = {2953--2953},
     year    = {2018},
-    publisher = {The American Association for Cancer Research}
+    publisher = {The American Association for Cancer Research},
+    doi     = {10.1158/1538-7445.AM2018-2953}
   }
 ---

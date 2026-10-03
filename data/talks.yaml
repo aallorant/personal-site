@@ -1,5 +1,16 @@
 invited:
   - year: 2026
+    title: Calibrating Routine HIV Testing Data for Subnational Surveillance
+    venue: Workshop, Italian National Institute of Statistics (ISTAT)
+    location: Rome, Italy
+    note: December 2026
+    upcoming: true
+  - year: 2026
+    title: A statistical calibration framework for subnational health surveillance from routine data and survey audits
+    venue: S3RI Research Festival, University of Southampton
+    location: Southampton, UK
+    note: rapid-fire talk, September 2026
+  - year: 2026
     title: Statistical calibration of routine facility testing using probability-survey biomarkers to estimate undiagnosed prevalence
     venue: WorldPop weekly seminar, University of Southampton
     location: Southampton, UK
@@ -7,10 +18,6 @@ invited:
     title: Statistical calibration of routine facility testing using probability-survey biomarkers to estimate undiagnosed prevalence
     venue: Spatio-Temporal Analyses Bayes (STAB) weekly seminar, Department of Biostatistics, University of Washington
     location: Seattle, USA
-  - year: 2025
-    title: Re-assessing the DHS wealth index as a proxy for socio-economic status
-    venue: Italian Conference on Survey Methodology (ITACOSM)
-    location: Florence, Italy
   - year: 2025
     title: "From routine data to sample placement: model-based adaptive design and joint estimation of HIV indicators in Mozambique"
     venue: S3RI Research Festival, University of Southampton
@@ -28,6 +35,7 @@ conference:
   - year: 2026
     title: "Why Ethnography? Studying AI adoption in official statistics as a problem of scientific practice"
     venue: Royal Statistical Society International Conference (RSS 2026)
+    location: Bournemouth, UK
     type: oral
   - year: 2026
     title: "Calibrating routine facility testing against probability-survey biomarkers for district-level estimation of undiagnosed HIV prevalence"
@@ -35,7 +43,12 @@ conference:
     type: oral
   - year: 2025
     title: "Mismatched Measures: Comparing Asset-Based Wealth Index and Income/Consumption Poverty in Mozambique"
-    venue: Italian Conference on Survey Methodology
+    venue: Italian Conference on Survey Methodology (ITACOSM)
+    location: Bologna, Italy
+    type: oral
+  - year: 2025
+    title: Re-assessing the DHS wealth index as a proxy for socio-economic status
+    venue: Italian Conference on Survey Methodology (ITACOSM)
     location: Bologna, Italy
     type: oral
   - year: 2025

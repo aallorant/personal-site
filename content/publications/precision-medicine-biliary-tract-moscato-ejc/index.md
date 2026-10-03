@@ -14,6 +14,8 @@ authors:
   - Nicotra C
 venue: "European Journal of Cancer"
 volume: "87:122–130"
+doi: "10.1016/j.ejca.2017.10.013"
+pmid: "29145038"
 tags:
   - oncology
   - precision-medicine
@@ -28,6 +30,7 @@ bibtex: |
     volume  = {87},
     pages   = {122--130},
     year    = {2017},
-    publisher = {Pergamon}
+    publisher = {Pergamon},
+    doi     = {10.1016/j.ejca.2017.10.013}
   }
 ---

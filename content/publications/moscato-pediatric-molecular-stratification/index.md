@@ -14,6 +14,8 @@ authors:
   - Abbou S
 venue: "Clinical Cancer Research"
 volume: "23(20):6101–6112"
+doi: "10.1158/1078-0432.CCR-17-0381"
+pmid: "28733441"
 tags:
   - oncology
   - precision-medicine
@@ -29,6 +31,7 @@ bibtex: |
     number  = {20},
     pages   = {6101--6112},
     year    = {2017},
-    publisher = {American Association for Cancer Research}
+    publisher = {American Association for Cancer Research},
+    doi     = {10.1158/1078-0432.CCR-17-0381}
   }
 ---

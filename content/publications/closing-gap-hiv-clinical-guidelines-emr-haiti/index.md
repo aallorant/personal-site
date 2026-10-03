@@ -10,6 +10,8 @@ authors:
   - Puttkammer N
 venue: "BMC Health Services Research"
 volume: "20(1):804"
+doi: "10.1186/s12913-020-05613-8"
+pmid: "32847575"
 tags:
   - hiv
   - haiti
@@ -25,6 +27,9 @@ bibtex: |
     number  = {1},
     pages   = {804},
     year    = {2020},
-    publisher = {BioMed Central London}
+    publisher = {BioMed Central London},
+    doi     = {10.1186/s12913-020-05613-8}
   }
 ---
+
+**Main result.** Using electronic medical records from 65,472 people living with HIV seen in 89 health facilities in Haiti between June 2016 and March 2018, the study estimated six indicators of guideline adherence and continuity of care. A composite measure identified two facilities with consistently poor performance and two star performers.

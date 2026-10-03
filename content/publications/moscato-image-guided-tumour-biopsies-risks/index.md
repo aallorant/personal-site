@@ -14,6 +14,8 @@ authors:
   - Michiels S
 venue: "European Journal of Cancer"
 volume: "103:108–119"
+doi: "10.1016/j.ejca.2018.08.003"
+pmid: "30223224"
 tags:
   - oncology
   - precision-medicine
@@ -28,6 +30,7 @@ bibtex: |
     volume  = {103},
     pages   = {108--119},
     year    = {2018},
-    publisher = {Pergamon}
+    publisher = {Pergamon},
+    doi     = {10.1016/j.ejca.2018.08.003}
   }
 ---

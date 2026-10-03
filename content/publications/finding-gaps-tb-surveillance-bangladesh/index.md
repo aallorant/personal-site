@@ -13,7 +13,9 @@ authors:
   - Watson A
   - Blacker BF
 venue: "The International Journal of Tuberculosis and Lung Disease"
-volume: "26(4):356"
+volume: "26(4):356–362"
+doi: "10.5588/ijtld.21.0624"
+pmid: "35351241"
 tags:
   - tuberculosis
   - surveillance
@@ -27,7 +29,10 @@ bibtex: |
     journal = {The International Journal of Tuberculosis and Lung Disease},
     volume  = {26},
     number  = {4},
-    pages   = {356},
-    year    = {2022}
+    pages   = {356--362},
+    year    = {2022},
+    doi     = {10.5588/ijtld.21.0624}
   }
 ---
+
+**Main result.** Tuberculosis (TB) prevalence ranged from 160 cases per 100,000 population in Jashore to 840 in Sunamganj, and the Rajshahi and Dhaka Divisions had the highest ratios of prevalence to case notifications. Resolving subnational disparities in case detection could lead to 26,500 additional TB cases notified every year.

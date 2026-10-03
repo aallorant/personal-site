@@ -6,7 +6,7 @@ draft: true
 authors:
   - Youssif O
   - Allorant A
-venue: "World Development Perspectives"
+venue: "PLOS ONE"
 tags:
   - survey-methodology
   - wealth
@@ -17,7 +17,7 @@ bibtex: |
   @article{youssif2026reassessing,
     title   = {Reassessing the DHS wealth index as a proxy for socio-economic status: insights from population surveys in the Middle East and North Africa},
     author  = {Youssif, Omar and Allorant, Adrien},
-    journal = {World Development Perspectives},
+    journal = {PLOS ONE},
     year    = {2026},
     note    = {under review}
   }

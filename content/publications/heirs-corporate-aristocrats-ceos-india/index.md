@@ -7,6 +7,7 @@ authors:
   - Ferry M
 venue: "Socio-Economic Review"
 volume: "16(2):307–339"
+doi: "10.1093/ser/mwx035"
 tags:
   - sociology
   - india
@@ -22,6 +23,7 @@ bibtex: |
     number  = {2},
     pages   = {307--339},
     year    = {2018},
-    publisher = {Oxford University Press}
+    publisher = {Oxford University Press},
+    doi     = {10.1093/ser/mwx035}
   }
 ---

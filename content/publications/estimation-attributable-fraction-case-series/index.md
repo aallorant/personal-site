@@ -5,6 +5,7 @@ authors:
   - Allorant A
 venue: "Revue d'Épidémiologie et de Santé Publique"
 volume: "65(2):170"
+doi: "10.1016/j.respe.2017.01.106"
 tags:
   - epidemiology
   - methods
@@ -19,6 +20,7 @@ bibtex: |
     number  = {2},
     pages   = {170},
     year    = {2017},
-    publisher = {Elsevier Masson}
+    publisher = {Elsevier Masson},
+    doi     = {10.1016/j.respe.2017.01.106}
   }
 ---

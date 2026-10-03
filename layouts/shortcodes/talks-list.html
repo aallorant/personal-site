@@ -11,7 +11,7 @@
     <li class="talk-item mb4 pb3 bb b--custom-border-color">
       <div class="flex-l items-baseline justify-between">
         <h3 class="f4 mv0 lh-title">{{ .title }}</h3>
-        <span class="f6 fw5 ttu tracked custom-headline-color">{{ .year }}</span>
+        <span class="f6 fw5 ttu tracked custom-headline-color">{{ if .upcoming }}Upcoming · {{ end }}{{ .year }}</span>
       </div>
       <p class="mt2 mb0 lh-copy">
         <span class="i">{{ .venue }}</span>{{ with .location }} · {{ . }}{{ end }}{{ with .type }} · {{ . }}{{ end }}{{ with .note }} · {{ . }}{{ end }}

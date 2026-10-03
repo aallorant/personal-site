@@ -102,20 +102,25 @@ enableEmoji = true
     url = "/teaching/"
     weight = 4
   [[menu.header]]
+    name = "Supervision"
+    title = "Supervision"
+    url = "/supervision/"
+    weight = 5
+  [[menu.header]]
     name = "Talks"
     title = "Talks"
     url = "/talks/"
-    weight = 5
+    weight = 6
   [[menu.header]]
     name = "CV"
     title = "CV"
     url = "/cv/"
-    weight = 6
+    weight = 7
   [[menu.header]]
     name = "Contact"
     title = "Contact"
     url = "/contact/"
-    weight = 7
+    weight = 8
 
   [[menu.footer]]
     name = "Email"

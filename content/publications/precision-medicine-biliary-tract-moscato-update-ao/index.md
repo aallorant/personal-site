@@ -14,6 +14,7 @@ authors:
   - Sun R
 venue: "Annals of Oncology"
 volume: "28(Suppl):v247"
+doi: "10.1093/annonc/mdx369.110"
 tags:
   - oncology
   - precision-medicine
@@ -28,6 +29,7 @@ bibtex: |
     volume  = {28},
     pages   = {v247},
     year    = {2017},
-    publisher = {Elsevier}
+    publisher = {Elsevier},
+    doi     = {10.1093/annonc/mdx369.110}
   }
 ---

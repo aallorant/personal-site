@@ -7,7 +7,8 @@ authors:
   - Allorant A
   - Ferry M
 venue: "In: Mapping the Elite: Power, Privilege, and Inequality. Oxford University Press"
-volume: "p. 320"
+volume: "pp. 70–114"
+doi: "10.1093/oso/9780199491070.003.0003"
 tags:
   - elites
   - india
@@ -21,6 +22,7 @@ bibtex: |
     booktitle = {Mapping the Elite: Power, Privilege, and Inequality},
     publisher = {Oxford University Press},
     year      = {2019},
-    pages     = {320}
+    pages     = {70--114},
+    doi     = {10.1093/oso/9780199491070.003.0003}
   }
 ---

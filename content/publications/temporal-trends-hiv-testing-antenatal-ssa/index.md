@@ -14,6 +14,7 @@ authors:
   - Maheu-Giroux M
 venue: "JAIDS Journal of Acquired Immune Deficiency Syndromes"
 volume: "95(1S):e97–e105"
+doi: "10.1097/QAI.0000000000003329"
 tags:
   - hiv
   - hiv-testing
@@ -29,6 +30,11 @@ bibtex: |
     number  = {1S},
     pages   = {e97--e105},
     year    = {2024},
-    publisher = {LWW}
+    publisher = {LWW},
+    doi       = {10.1097/QAI.0000000000003329}
   }
 ---
+
+## Main result
+
+Across 139 nationally representative household surveys from 2005 to 2021, covering more than 2.2 million women aged 15 to 49 in 41 African countries, HIV testing coverage in the previous 24 months rose from 8% to 38%. The share of women who received an HIV test as part of antenatal care in the previous 24 months rose from 2% in 2005 to 11% in 2021. Among women who had been tested, the probability of testing at antenatal care was greater for women with several births, adolescent girls, rural women, women in the poorest wealth quintile and women in West and Central Africa.

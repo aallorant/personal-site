@@ -31,6 +31,16 @@
       {{ end }}
     {{ end }}
 
+    {{ range .Params.figures }}
+      {{ $img := $.Resources.GetMatch .file }}
+      {{ if $img }}
+        <figure class="mv4">
+          <img src="{{ $img.RelPermalink }}" alt="{{ .alt | default $.Title }}" loading="lazy" class="w-100">
+          {{ with .caption }}<figcaption class="f7 mt2">{{ . | markdownify }}</figcaption>{{ end }}
+        </figure>
+      {{ end }}
+    {{ end }}
+
     {{ with .Params.abstract }}
       <section class="abstract mv4" aria-labelledby="abstract-heading">
         <h2 id="abstract-heading" class="f4 ttu tracked custom-headline-color">abstract</h2>

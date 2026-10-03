@@ -7,7 +7,7 @@ layout: standard
 type: page
 ---
 
-A selected list of recent talks. For the full record, see my CV.
+A selected list of recent talks, most recent first. Scheduled talks are marked upcoming. For the full record, see my CV.
 
 {{< talks-list group="invited" heading="Invited talks" >}}
 

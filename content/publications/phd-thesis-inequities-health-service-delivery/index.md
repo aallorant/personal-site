@@ -19,3 +19,5 @@ bibtex: |
     school = {University of Washington}
   }
 ---
+
+Thesis: [University of Washington ResearchWorks](http://hdl.handle.net/1773/48164).

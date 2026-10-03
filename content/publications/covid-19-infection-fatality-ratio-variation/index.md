@@ -15,6 +15,8 @@ authors:
   - Allorant A
 venue: "The Lancet"
 volume: "399(10334):1469–1488"
+doi: "10.1016/S0140-6736(21)02867-1"
+pmid: "35219376"
 tags:
   - covid-19
   - mortality
@@ -30,6 +32,9 @@ bibtex: |
     number  = {10334},
     pages   = {1469--1488},
     year    = {2022},
-    publisher = {ELSEVIER SCIENCE INC}
+    publisher = {ELSEVIER SCIENCE INC},
+    doi     = {10.1016/S0140-6736(21)02867-1}
   }
 ---
+
+**Main result.** The paper estimated that the median infection-fatality ratio across countries and territories fell from 0.466% to 0.314% between 15 April 2020 and 1 January 2021, and that the ratio varied by a factor of more than 30 among 190 countries and territories.

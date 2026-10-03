@@ -14,6 +14,8 @@ authors:
   - De Kerorguen N
 venue: "AIDS and Behavior"
 volume: "25(5):1366–1372"
+doi: "10.1007/s10461-021-03218-8"
+pmid: "33738698"
 tags:
   - hiv
   - haiti
@@ -29,6 +31,9 @@ bibtex: |
     number  = {5},
     pages   = {1366--1372},
     year    = {2021},
-    publisher = {Springer US New York}
+    publisher = {Springer US New York},
+    doi     = {10.1007/s10461-021-03218-8}
   }
 ---
+
+**Main result.** Across 96 of 167 health facilities offering antiretroviral therapy (ART) in Haiti, the average number of HIV visits fell from 121.5 to 92.5 between week 1 and week 16 around the first COVID-19 cases, and the proportion of timely ART refills fell from 51.9% to 43.8%.

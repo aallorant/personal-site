@@ -14,6 +14,7 @@ authors:
   - Auger N
 venue: "Annals of Oncology"
 volume: "28(Suppl):vi55"
+doi: "10.1093/annonc/mdx426.003"
 tags:
   - oncology
   - precision-medicine
@@ -28,6 +29,7 @@ bibtex: |
     volume  = {28},
     pages   = {vi55},
     year    = {2017},
-    publisher = {Elsevier}
+    publisher = {Elsevier},
+    doi     = {10.1093/annonc/mdx426.003}
   }
 ---

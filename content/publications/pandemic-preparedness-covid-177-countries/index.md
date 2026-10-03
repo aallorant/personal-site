@@ -16,6 +16,8 @@ authors:
   - Allorant A
 venue: "The Lancet"
 volume: "399(10334):1489–1512"
+doi: "10.1016/S0140-6736(22)00172-6"
+pmid: "35120592"
 tags:
   - covid-19
   - epidemiology
@@ -31,6 +33,9 @@ bibtex: |
     number  = {10334},
     pages   = {1489--1512},
     year    = {2022},
-    publisher = {Elsevier}
+    publisher = {Elsevier},
+    doi     = {10.1016/S0140-6736(22)00172-6}
   }
 ---
+
+**Main result.** The paper reports that pandemic-preparedness indices were not meaningfully associated with standardised infection rates or infection-fatality ratios, while higher trust in government, higher interpersonal trust and less government corruption were associated with lower standardised infection rates.

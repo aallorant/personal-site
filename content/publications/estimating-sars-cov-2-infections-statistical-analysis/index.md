@@ -15,6 +15,8 @@ authors:
   - Allorant A
 venue: "The Lancet"
 volume: "399(10344):2351–2380"
+doi: "10.1016/S0140-6736(22)00484-6"
+pmid: "35405084"
 tags:
   - covid-19
   - modelling
@@ -30,6 +32,9 @@ bibtex: |
     number  = {10344},
     pages   = {2351--2380},
     year    = {2022},
-    publisher = {Elsevier}
+    publisher = {Elsevier},
+    doi     = {10.1016/S0140-6736(22)00484-6}
   }
 ---
+
+**Main result.** The paper estimated that more than 40% of the global population had been infected with SARS-CoV-2 at least once by 14 November 2021.

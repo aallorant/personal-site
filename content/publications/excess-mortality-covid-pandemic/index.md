@@ -16,6 +16,8 @@ authors:
   - Allorant A
 venue: "The Lancet"
 volume: "399(10334):1513–1536"
+doi: "10.1016/S0140-6736(21)02796-3"
+pmid: "35279232"
 tags:
   - covid-19
   - mortality
@@ -31,6 +33,9 @@ bibtex: |
     number  = {10334},
     pages   = {1513--1536},
     year    = {2022},
-    publisher = {Elsevier}
+    publisher = {Elsevier},
+    doi     = {10.1016/S0140-6736(21)02796-3}
   }
 ---
+
+**Main result.** The paper estimated that 18.2 million (95% uncertainty interval 17.1 to 19.6) people died worldwide because of the COVID-19 pandemic, measured by excess mortality, over 2020 and 2021.

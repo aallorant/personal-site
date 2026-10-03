@@ -14,6 +14,8 @@ authors:
   - Lassau N
 venue: "Medical Physics"
 volume: "45(4):1529–1536"
+doi: "10.1002/mp.12809"
+pmid: "29443389"
 tags:
   - oncology
   - radiomics
@@ -28,6 +30,9 @@ bibtex: |
     volume  = {45},
     number  = {4},
     pages   = {1529--1536},
-    year    = {2018}
+    year    = {2018},
+    doi     = {10.1002/mp.12809}
   }
 ---
+
+**Main result.** Across eight identical CT acquisitions of a phantom, only eight of 34 texture indices were highly reproducible and discriminated textures from each other.

@@ -5,6 +5,7 @@ authors:
   - Allorant A
 venue: "Journal of the Royal Statistical Society Series A: Statistics in Society"
 volume: "189(1):59–60"
+doi: "10.1093/jrsssa/qnaf099"
 tags:
   - covid-19
   - methods
@@ -19,6 +20,7 @@ bibtex: |
     number  = {1},
     pages   = {59--60},
     year    = {2026},
-    publisher = {Oxford University Press UK}
+    publisher = {Oxford University Press UK},
+    doi     = {10.1093/jrsssa/qnaf099}
   }
 ---
