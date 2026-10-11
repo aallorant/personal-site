@@ -6,11 +6,6 @@ invited:
     note: December 2026
     upcoming: true
   - year: 2026
-    title: A statistical calibration framework for subnational health surveillance from routine data and survey audits
-    venue: S3RI Research Festival, University of Southampton
-    location: Southampton, UK
-    note: rapid-fire talk, September 2026
-  - year: 2026
     title: Statistical calibration of routine facility testing using probability-survey biomarkers to estimate undiagnosed prevalence
     venue: WorldPop weekly seminar, University of Southampton
     location: Southampton, UK
@@ -46,13 +41,8 @@ conference:
     venue: Conference on Small Area Estimation (SAE 2026)
     type: oral
   - year: 2025
-    title: "Mismatched Measures: Comparing Asset-Based Wealth Index and Income/Consumption Poverty in Mozambique"
-    venue: Italian Conference on Survey Methodology (ITACOSM)
-    location: Bologna, Italy
-    type: oral
-  - year: 2025
-    title: Re-assessing the DHS wealth index as a proxy for socio-economic status
-    venue: Italian Conference on Survey Methodology (ITACOSM)
+    title: "Mismatched measures: comparing asset-based wealth index and income and consumption poverty in Mozambique"
+    venue: IASS–ITACOSM joint conference
     location: Bologna, Italy
     type: oral
   - year: 2025
@@ -61,7 +51,7 @@ conference:
     location: Washington DC, USA
     type: oral
   - year: 2023
-    title: Socio-demographic and geographic disparities in HIV burden and care engagement across 43 African countries
+    title: Socio-demographic and geographic disparities in HIV burden and care engagement across African countries
     venue: ICASA
     location: Harare, Zimbabwe
     type: oral
@@ -71,17 +61,23 @@ conference:
     location: Bogotá, Colombia
     type: oral
   - year: 2018
-    title: Impact evaluation of HIV viral load testing intervention in Guinea
+    title: Impact evaluation of an HIV viral load testing intervention in Guinea
     venue: AIDS 2018
     location: Amsterdam, Netherlands
     type: oral
 
 workshops:
+  - year: 2026
+    title: Routine Data Methods Workshop
+    venue: Week-long workshop, Expanded Programme on Immunisation, Mozambique Ministry of Health
+    location: Maputo, Mozambique
+    note: November 2026
+    upcoming: true
   - year: 2025
     title: Routine Health Information Systems for HIV Surveillance
     venue: Week-long workshop, Mozambique Ministry of Health M&E team
     location: Maputo, Mozambique
-    note: WHO-funded
+    note: Funded by WHO and the British Academy
   - year: 2023
     title: UNAIDS Regional Training Workshop on HIV Estimates and Projections
     venue: Facilitator for 17 Francophone Ministries of Health

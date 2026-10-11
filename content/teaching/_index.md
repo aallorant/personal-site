@@ -15,7 +15,7 @@ Curriculum design is a large part of why I do this work. After my postdoc I chos
 
 ## Programme leadership
 
-**Undergraduate Studies Lead**, Department of Social Statistics and Demography · 2026–
+**Undergraduate Studies Lead**, Department of Social Statistics and Demography
 
 > I lead the department's undergraduate provision across two halves. The first is the module offer, where I work with partner departments across the Faculty so that our research methods and demography modules reach their students. The second is programme coordination, which covers the quality and reporting processes for our undergraduate degrees. Current work includes curriculum development for a revived population module and the redesign of assessment for a cohort that has access to large language models.
 
@@ -92,7 +92,7 @@ A liberal arts college where every student writes a senior thesis and teaching q
 
 - **HMS 520: Data Analysis and Programming Tools in Health Sciences** · teaching fellow · autumn 2021
 - **GH 345: Global Health Economics** · teaching assistant · spring 2021
-- **GH 556: Advanced Quantitative Methods for Global Health** · teaching assistant · winter 2020 & 2021
+- **GH 556: Advanced Quantitative Methods for Global Health** · teaching fellow · winter 2020 & 2021
 
 ### Sciences Po Paris & Sorbonne (2014–2022)
 
