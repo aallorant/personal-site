@@ -30,7 +30,7 @@ enableEmoji = true
 [params]
   orgName = "Adrien Allorant"
   orgLocal = "Southampton, UK"
-  description = "Lecturer in social statistics and global health at the University of Southampton and Deputy Director of S3RI. Bayesian, spatial, and survey methods for measuring health and inequality."
+  description = "Lecturer B in social statistics and global health at the University of Southampton and Deputy Director of S3RI. Bayesian, spatial, and survey methods for measuring health and inequality."
   favicon = "/img/favicon.ico"
   logo = ""
   mainSections = ["publications"]

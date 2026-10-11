@@ -1,5 +1,5 @@
 ---
-title: "Reassessing the DHS wealth index as a proxy for socio-economic status: insights from population surveys in the Middle East and North Africa"
+title: "Mismeasuring the poorest? The wealth index and two decades of household welfare in Egypt, Jordan and Palestine"
 date: 2026-06-01
 status: under-review
 draft: true
@@ -15,7 +15,7 @@ summary: |
   Examines whether the DHS wealth index tracks socio-economic status across population surveys in the Middle East and North Africa.
 bibtex: |
   @article{youssif2026reassessing,
-    title   = {Reassessing the DHS wealth index as a proxy for socio-economic status: insights from population surveys in the Middle East and North Africa},
+    title   = {Mismeasuring the poorest? The wealth index and two decades of household welfare in Egypt, Jordan and Palestine},
     author  = {Youssif, Omar and Allorant, Adrien},
     journal = {PLOS ONE},
     year    = {2026},

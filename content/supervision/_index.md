@@ -17,9 +17,9 @@ I supervise students whose projects ask how health, poverty and access to servic
 
 > The project studies the politics of indicators in global health, with a review of PEPFAR (the US President's Emergency Plan for AIDS Relief) data and policies over the last decade. It is funded by an Economic and Social Research Council (ESRC) studentship through the South Coast Doctoral Training Partnership. Kristine Nilsen (University of Southampton) and Joseph Larmarange (Institut de Recherche pour le Développement, IRD) co-supervise.
 
-**Dagim Fisseha Habteyesus** · co-supervisor · University of Southampton · 2023–
+**Dagim Fisseha Habteyesus** · co-supervisor · University of Southampton · 2025–
 
-> The project examines sexual and reproductive health in refugee settings in Ethiopia.
+> The project measures sexual and reproductive health indicators in four refugee camps in Ethiopia. It is funded by the Economic and Social Research Council (ESRC). Kristine Nilsen and Sarah Neal (University of Southampton) co-supervise.
 
 ---
 
@@ -31,8 +31,8 @@ I supervise students whose projects ask how health, poverty and access to servic
 | Evan Heintz | Summer research | Reed College | 2024 |
 | Asa Ferguson | Senior thesis | Reed College | 2023–2024 |
 | Louise Xu | Senior thesis | Reed College | 2023–2024 |
-| Paul Muset | Global health scholar | McGill University | 2022–2023 |
-| Caroline Hodgins | Global health scholar | McGill University | 2022–2023 |
+| Paul Muset | Global health scholar, determinants of HIV testing at antenatal care; co-author of the 2024 JAIDS article | McGill University | 2022–2023 |
+| Caroline Hodgins | Global health scholar, HIV prevalence among men who paid for sex | McGill University | 2022–2023 |
 
 ---
 

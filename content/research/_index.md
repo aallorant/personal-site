@@ -9,7 +9,7 @@ type: page
 
 My research lies at the intersection of Bayesian methods, spatial statistics, small-area estimation, survey methodology, and official statistics. One question runs through all of it: how do we measure health, poverty, and access to services where data are sparse, contested, or expensive to collect, and how do we build tools that ministries of health and statistical offices can own and use?
 
-Most of this work happens with partners: the World Health Organization, the Mozambique Ministry of Health, the Kinshasa School of Public Health, Bluesquare, and the UNAIDS Reference Group on Estimates, Modelling and Projections, of which I am a member. The [partners](#partners-heading) section at the foot of this page links to each of them.
+Most of this work happens with partners: the World Health Organization, the Mozambique Ministry of Health, the Kinshasa School of Public Health, Bluesquare, and the UNAIDS Reference Group on Estimates, Modelling and Projections, of which I was a member from 2022 to 2024. The [partners](#partners-heading) section at the foot of this page links to each of them.
 
 {{< strand n="1" title="Measuring health where data are sparse" lead="Combining surveys, programme data and routine health information to estimate HIV, immunisation and quality of care below the national level." >}}
 

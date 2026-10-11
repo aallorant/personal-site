@@ -51,7 +51,7 @@ Students write down what they expect a result to be before they estimate it, and
 
 ### RESM2001: Introduction to Social Data Analytics
 
-Module lead · spring 2025 & 2026 · second-year undergraduate, semester 2, around 200 students
+Module lead · spring 2025 & 2026 · second-year undergraduate, semester 2, a cohort rising from 160 to over 250 students
 
 The module teaches the statistical foundations of quantitative social science through lectures, pre-recorded explanations, weekly computer workshops and tutorials. In 2025/26 I led its complete migration from SPSS to R, covering coursework, lectures, tutorials, assessment and solutions. Moving the module onto open-source tools removes a licence barrier and leaves students with software they can keep after graduation.
 
@@ -88,18 +88,15 @@ A liberal arts college where every student writes a senior thesis and teaching q
 - **MATH 241: Data Science** · instructor · spring 2024
 - **MATH 141: Introduction to Statistics & Probability** · instructor · autumn 2023
 
-### McGill University (2022–2023)
-
-- **EPIB 638: Mathematical Modeling of Infectious Diseases** · guest lecturer · autumn 2022
-
 ### University of Washington (2017–2021)
 
 - **HMS 520: Data Analysis and Programming Tools in Health Sciences** · teaching fellow · autumn 2021
 - **GH 345: Global Health Economics** · teaching assistant · spring 2021
 - **GH 556: Advanced Quantitative Methods for Global Health** · teaching assistant · winter 2020 & 2021
 
-### Sciences Po Paris & Sorbonne (2014–2016)
+### Sciences Po Paris & Sorbonne (2014–2022)
 
+- **Introduction to Statistics and Probability** · instructor, Sciences Po Paris · 2022
 - **Micro-economic Evaluation of Public Policy** · teaching assistant · autumn 2016
 - **Introduction to Statistics and Econometrics** · teaching assistant · autumn 2014 & 2015
 
